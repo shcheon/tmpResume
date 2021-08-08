@@ -1,4 +1,5 @@
-.idea/
 _site
-vendor/ruby
-.vscode
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
