@@ -189,24 +189,27 @@ layout: default
   
   - 개발환경 : Linux
   
-  - 사용 알고리즘 : PID Controller(제어), [SURF](https://github.com/stephen-miller/opensurf)(영상인식), Location Matching 
+  - 사용 알고리즘 : PID Controller(제어), [SURF](https://github.com/stephen-miller/opensurf)(영상인식), [Location Matching](https://m.earticle.net/Article/A158894)(객체추적)
   
   - 개발 Tool : Intellij
 
 - 오픈소스를 활용한 영상기반 객체추적 비행 시뮬레이션 비행 환경 구축
   
   - 개발 언어 : C++, Java
+ 
   - 개발 환경 : Linux
-  - API 및 라이브러리 : Java 3D, OpenCV, QT(GUI), MAVLink, JMAVSim
+  
+  - API 및 라이브러리 : Java 3D, OpenCV, QT(GUI), [MAVLink](https://github.com/mavlink/mavlink), [JMAVSim](https://github.com/PX4/jMAVSim)
+ 
   - 개발 Tool : IntelliJ, QtCreator
 
 - 연구 결과
 
-  - 영상 기반 객체 추적 비행 알고리즘 구현 영상보기 1
+  - [영상 기반 객체 추적 비행 알고리즘 구현 영상보기 1](https://www.youtube.com/watch?v=rUZeQo1Jiss)
   
-  - 영상 기반 객체 추적 비행 알고리즘 구현 영상보기 2
+  - [영상 기반 객체 추적 비행 알고리즘 구현 영상보기 2](https://www.youtube.com/watch?v=wVBL-0HvnYU)
   
-  - 영상 기반 객체 추적 비행 시뮬레이션 환경 구축 영상보기
+  - [영상 기반 객체 추적 비행 시뮬레이션 환경 구축 영상보기](https://www.youtube.com/watch?v=pxsQ5IP9HO4)
   
 
 
@@ -215,25 +218,39 @@ layout: default
 ## **슈어소프트테크**
 
 - 재직기간 : 1년 ('17.07 ~ '18.07)
+
 - 수행업무
-  - PROV for Android 솔루션 개발
-  - VISTA 솔루션 개발
+
+  - [PROV for Android 솔루션 개발](https://www.suresofttech.com/ko/html/tool/secure_prov.php)  
+  
+  - [VISTA 솔루션 개발](https://www.suresofttech.com/ko/html/tool/inter_vista.php)
 
 ### **1. PROV for Android 솔루션 개발**
 
 - 개요 : 안드로이드 기반 인포테인먼트 시스템에서 발생하는 메모리 누스를 검출하는 모듈 개발
-- 주요 역할
-  - Native 메모리 누수 검출 모듈 개발
-    - 개발 언어 : C++
-    - 개발 환경 : Linux OS, Android PDK (Kitkat 4.4.2), SVN(형상관리)
-    - API 및 라이브러리 : Malloc Debug, UDS Socket(Inter-Process Commnication)
-    - 개발 Tool : Android Open Source에 내장된 Build Script 활용
-  - 메모리 누수 로그 수집용 App 개발
-    - 개발 언어 : Java
-    - 개발 환경 : Android NDK, Android SDK (Kitkat 4.4.2)
-    - API 및 라이브러리 : Android Component
-    - 개발 Tool : Android Studio
 
+- 주요 역할
+
+  - Native 메모리 누수 검출 모듈 개발
+  
+    - 개발 언어 : C++
+	
+    - 개발 환경 : Linux OS, Android PDK (Kitkat 4.4.2), SVN(형상관리)
+	
+	- API 및 라이브러리 : [Malloc Debug](https://android.googlesource.com/platform/bionic/+/master/libc/malloc_debug/README.md), UDS Socket(Inter-Process Commnication)
+	
+    - 개발 Tool : Android Open Source에 내장된 Build Script 활용
+	
+  - 메모리 누수 로그 수집용 App 개발
+  
+    - 개발 언어 : Java
+	
+    - 개발 환경 : Android NDK, Android SDK (Kitkat 4.4.2)
+	
+    - API 및 라이브러리 : Android Component
+	
+    - 개발 Tool : Android Studio
+	
 ### **2. VISTA 솔루션 개발**
 
 - 개요 : 차량용 인포테인먼트 시스템 UI 테스트 자동화 도구 개발
@@ -246,7 +263,7 @@ layout: default
     
     - 개발 환경 : Android PDK (Kitkat 4.4.2), SVN (형상관리) 
     
-    - API 및 라이브러리 : Android Debug Bridge
+    - API 및 라이브러리 : [Android Debug Bridge](https://developer.android.com/studio/command-line/adb)
     
     - 개발 Tool : Ecilpse
     
@@ -255,7 +272,7 @@ layout: default
 
     - 개발 언어 : Python
 
-    - API 및 라이브러리 : Tensorflow Object Detection API
+    - API 및 라이브러리 : [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
       
 
@@ -266,20 +283,35 @@ layout: default
 ### **1. 반도체 Backend 공정 Factory Planning 서비스 운영**
 
 - 개요 : 반도체 주문 납기 준수를 위한 일(Daily) 공장 생산 계획 수립 및 시뮬레이션
-- 주요 역할
-  - 반도체 기준정보 가공 및 처리 모듈 개발(Sub업무)
-    - 개발 언어 : PL/SQL
-    - 개발 환경 : SunOS, Dimension(형상관리)
-    - API 및 라이브러리 : Procedure/Package 구현, Oracle Database 19c, cron
-    - 개발 Tool : Toad, SQL Developer
-  - 일 생산 계획 수립 모듈 비즈니스 로직 구현(Main업무)
-    - 개발 언어 : C#
-    - 개발 환경 : .NET Framework 4.6, SVN(형상관리)
-    - API 및 라이브러리 : MOZART Framework
-    - 개발 Tool : Visual Studio 2012, MOZART IDE Plugin
-  - 일 생산 계획 보정 및 기준정보 조회용 UI 개발(Sub업무)
-    - 개발 언어 : Java 6
-    - 개발 환경 : Jetty 6.1.26 (Local 개발), WebLogic 10.3.6(운영) Oracle Http Server, Dimension(형상관리), XPlatform
-    - API 및 라이브러리 : Springframework 3.0, Slf4j, Anyframe-core, Anyframe-xp-query, Anyframe-xplatform, Anyframe-datasource
-    - 개발 Tool : Eclipse, UX Studio
 
+- 주요 역할
+
+  - 반도체 기준정보 가공 및 처리 모듈 개발(Sub업무)
+  
+    - 개발 언어 : PL/SQL
+	
+    - 개발 환경 : SunOS, Dimension(형상관리)
+	
+    - API 및 라이브러리 : Procedure/Package 구현, Oracle Database 19c, cron
+	
+    - 개발 Tool : Toad, SQL Developer
+	
+  - 일 생산 계획 수립 모듈 비즈니스 로직 구현(Main업무)
+  
+    - 개발 언어 : C#
+	
+    - 개발 환경 : .NET Framework 4.6, SVN(형상관리)
+	
+    - API 및 라이브러리 : [MOZART Framework](http://www.vmsmozart.com/index.php?mc=a&md=04&t=)
+	
+    - 개발 Tool : Visual Studio 2012, MOZART IDE Plugin
+	
+  - 일 생산 계획 보정 및 기준정보 조회용 UI 개발(Sub업무)
+  
+    - 개발 언어 : Java 6
+	
+    - 개발 환경 : Jetty 6.1.26 (Local 개발), WebLogic 10.3.6(운영) Oracle Http Server, Dimension(형상관리), XPlatform
+	
+    - API 및 라이브러리 : Springframework 3.0, Slf4j, [Anyframe-core, Anyframe-xp-query, Anyframe-xplatform, Anyframe-datasource](https://github.com/anyframejava)
+	
+    - 개발 Tool : Eclipse, UX Studio
