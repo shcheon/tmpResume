@@ -8,10 +8,8 @@ layout: default
 안녕하세요.
 우물 밖을 궁금해 하는 개구리 개발자 천승현 입니다.
 
-
-
 <br>
-**Table of Contents**
+# **Table of Contents**
 * TOC
 {:toc}
 
