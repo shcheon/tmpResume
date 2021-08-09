@@ -178,7 +178,20 @@ layout: default
 
 #### **3. 영상기반 객체 추적 비행 알고리즘 연구 및 플랫폼 개발 **
 
-- TODO
+- 개요 : 드론으로 영상기반 객체추적 비행알고리즘 구현 및 시뮬레이션 환경 구축
+
+- 주요 역할
+
+  - 개발 언어 : C++
+  
+  - API 및 라이브러리 : OpenCV, [MAVLink(Data Protocol)](https://github.com/mavlink/mavlink)
+  
+  - 개발환경 : Linux
+  
+  - 사용 알고리즘 : PID Controller(제어), [SURF](https://github.com/stephen-miller/opensurf)(영상인식), Location Matching 
+  
+  - 개발 Tool : Intellij
+
 
 
 # 개발자 성장이력 - 회사
