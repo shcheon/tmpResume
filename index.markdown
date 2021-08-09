@@ -189,7 +189,7 @@ layout: default
   
   - 개발환경 : Linux
   
-  - 사용 알고리즘 : PID Controller(제어), [SURF](https://github.com/stephen-miller/opensurf)(영상인식), [Location Matching](https://m.earticle.net/Article/A158894)(객체추적)
+  - 사용 알고리즘 : PID Controller(제어), [SURF](https://github.com/stephen-mi11er/opensurf)(영상인식), [Location Matching](https://m.earticle.net/Article/A158894)(객체추적)
   
   - 개발 Tool : Intellij
 
