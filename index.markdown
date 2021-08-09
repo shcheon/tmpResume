@@ -10,7 +10,7 @@ layout: post
 
 <br>
 
-[TOC]
+{:TOC}
 
 # **수상 및 논문게재 이력**
 
