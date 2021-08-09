@@ -14,7 +14,7 @@ layout: post
 
 - 재능기부 S/W 챌린지 우수상 ('12. 11. 28')
 
-- [캔위성 경연대회 장려상 ('12. 9. 6')](#3.다중 통신을 수행하는 캔위성 제작)
+- [캔위성 경연대회 장려상 ('12. 9. 6')](#3.다중통신을수행하는캔위성제작)
 
 - [문용호, **천승현**, 하석운, “이동보안시스템에서 폐색영역에서의 소형무인비행체 위치 및 방향 추적”, 대한임베디드공학회, 제 10권 제5호 2015년 10월](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002043955)
 
