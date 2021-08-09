@@ -47,7 +47,7 @@ layout: default
 
 	![image-20210808210941608](/assets/img/image-20210808210941608.png)
 
-<br><br>
+<br><br><br>
 
 ## **2. 안드로이드 어린이 집 종합관리용 앱, 서버 개발**
 
@@ -77,7 +77,7 @@ layout: default
 
 	![image-20210808193038964](/assets/img/image-20210808193038964.png) ![image-20210808193055479](/assets/img/image-20210808193055479.png)
 
-<br><br>
+<br><br><br>
 
 ## **3. 다중 통신을 수행하는 캔위성 제작**
 
@@ -99,7 +99,7 @@ layout: default
 
 	![image-cansat](/assets/img/cansat.png) 
 
-<br><br>
+<br><br><br>
 
 ## **4. 칼만 필터를 적용한 GPS 기반의 UAV 추적 안테나 시뮬레이터 구현** 
 
@@ -125,7 +125,7 @@ layout: default
 
 
       
-<br><br>
+<br><br><br>
 
 
 # **대학원**
@@ -175,7 +175,7 @@ layout: default
 	<br><br><br><br>
 	![SCIE_Paper](/assets/img/SCIE_Paper.png)
 	
-
+<br><br><br>
 
 ## **3. 영상기반 객체 추적 비행 알고리즘 연구 및 플랫폼 개발**
 
@@ -211,7 +211,7 @@ layout: default
   
   - [영상 기반 객체 추적 비행 시뮬레이션 환경 구축 영상보기](https://www.youtube.com/watch?v=pxsQ5IP9HO4)
   
-
+<br><br><br>
 
 # **회사**
 
@@ -224,6 +224,8 @@ layout: default
   - [PROV for Android 솔루션 개발](https://www.suresofttech.com/ko/html/tool/secure_prov.php)  
   
   - [VISTA 솔루션 개발](https://www.suresofttech.com/ko/html/tool/inter_vista.php)
+
+<br><br><br>
 
 ### **1. PROV for Android 솔루션 개발**
 
@@ -250,7 +252,9 @@ layout: default
     - API 및 라이브러리 : Android Component
 	
     - 개발 Tool : Android Studio
-	
+
+<br><br><br>
+
 ### **2. VISTA 솔루션 개발**
 
 - 개요 : 차량용 인포테인먼트 시스템 UI 테스트 자동화 도구 개발
@@ -274,7 +278,7 @@ layout: default
 
     - API 및 라이브러리 : [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
-      
+<br><br><br>      
 
 ## **삼성SDS**
 
