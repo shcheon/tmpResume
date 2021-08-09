@@ -277,8 +277,10 @@ S/W 아키텍트가 되고싶은 천승현 입니다.
 
     - API 및 라이브러리 : [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
-    [labeling](/assets/img/DeepLearning2.png)
-    [inference](/assets/img/DeepLearning3.png)
+    ![DeepLearning2](/assets/img/DeepLearning2.png)
+    <br><br>
+    ![DeepLearning3](/assets/img/DeepLearning3.png)
+    
 
 <br><br>     
 
