@@ -12,7 +12,7 @@ layout: default
 * TOC
 {:toc}
 
-<br><br><br>
+<br><br>
 
 # **수상 및 논문게재 이력**
 
@@ -48,7 +48,7 @@ layout: default
 
 	![image-20210808210941608](/assets/img/image-20210808210941608.png)
 
-<br><br><br>
+<br><br>
 
 ## **안드로이드 어린이 집 종합관리용 앱, 서버 개발**
 
@@ -78,7 +78,7 @@ layout: default
 
 	![image-20210808193038964](/assets/img/image-20210808193038964.png) ![image-20210808193055479](/assets/img/image-20210808193055479.png)
 
-<br><br><br>
+<br><br>
 
 ## **다중 통신을 수행하는 캔위성 제작**
 
@@ -100,7 +100,7 @@ layout: default
 
 	![image-cansat](/assets/img/cansat.png) 
 
-<br><br><br>
+<br><br>
 
 ## **칼만 필터를 적용한 GPS 기반의 UAV 추적 안테나 시뮬레이터 구현** 
 
@@ -123,15 +123,12 @@ layout: default
     ![antena](/assets/img/Antena.png)
 
     ![image-20210808203851671](/assets/img/image-20210808203851671.png)
-
-
-      
-<br><br><br>
-
+    
+<br><br>
 
 # **대학원**
 
-## **영상기반 객체 검출 , 인식 , 추적 기법 연구** 
+### **영상기반 객체 검출 , 인식 , 추적 기법 연구** 
 
 - 개요 : 드론으로 영상기반 객체추적 비행 알고리즘 개발을 위한 영상 인식 알고리즘 성능 분석
 
@@ -151,8 +148,7 @@ layout: default
 
 	![image-20210808204524745](/assets/img/image-20210808204524745.png)
 
-
-<br><br><br>
+<br><br>
 
 ## **객체 검출 및 인식 알고리즘(SURF) 성능 개선 연구**
 
@@ -176,7 +172,7 @@ layout: default
 	<br><br><br><br>
 	![SCIE_Paper](/assets/img/SCIE_Paper.png)
 	
-<br><br><br>
+<br><br>
 
 ## **영상기반 객체 추적 비행 알고리즘 연구 및 플랫폼 개발**
 
@@ -212,7 +208,7 @@ layout: default
   
   - [영상 기반 객체 추적 비행 시뮬레이션 환경 구축 영상보기](https://www.youtube.com/watch?v=pxsQ5IP9HO4)
   
-<br><br><br>
+<br><br>
 
 # **회사**
 
@@ -226,7 +222,7 @@ layout: default
   
   - [VISTA 솔루션 개발](https://www.suresofttech.com/ko/html/tool/inter_vista.php)
 
-<br><br><br>
+<br><br>
 
 ### **PROV for Android 솔루션 개발**
 
@@ -254,7 +250,7 @@ layout: default
 	
     - 개발 Tool : Android Studio
 
-<br><br><br>
+<br><br>
 
 ### **VISTA 솔루션 개발**
 
@@ -279,7 +275,7 @@ layout: default
 
     - API 및 라이브러리 : [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
-<br><br><br>      
+<br><br>     
 
 ## **삼성SDS**
 
