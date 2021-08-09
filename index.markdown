@@ -200,9 +200,9 @@ layout: default
  
   - 개발 Tool : IntelliJ, QtCreator
 
-	![simulation-env](/assets/img/Simulation Env.png)
+	![simulation-env](/assets/img/SimulationEnv.png)
 	<br><br>
-	![simulator-diagram](/assets/img/Simulator Diagram.png)
+	![simulator-diagram](/assets/img/SimulatorDiagram.png)
 
 - 연구 결과
 
