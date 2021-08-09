@@ -6,7 +6,7 @@ layout: default
 ---
 
 안녕하세요.<br>
-우물 밖을 궁금해 하는 개구리 같은 개발자 천승현 입니다.
+S/W 아키텍트로 성장하고 싶은 천승현 입니다.
 
 # **Table of Contents**
 * TOC
