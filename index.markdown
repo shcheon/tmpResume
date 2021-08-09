@@ -210,16 +210,16 @@ layout: default
   
 
 
-# 회사
+# **회사**
 
-## 슈어소프트테크
+## **슈어소프트테크**
 
 - 재직기간 : 1년 ('17.07 ~ '18.07)
 - 수행업무
   - PROV for Android 솔루션 개발
   - VISTA 솔루션 개발
 
-### 1. PROV for Android 솔루션 개발
+### **1. PROV for Android 솔루션 개발**
 
 - 개요 : 안드로이드 기반 인포테인먼트 시스템에서 발생하는 메모리 누스를 검출하는 모듈 개발
 - 주요 역할
@@ -234,7 +234,7 @@ layout: default
     - API 및 라이브러리 : Android Component
     - 개발 Tool : Android Studio
 
-### 2. VISTA 솔루션 개발
+### **2. VISTA 솔루션 개발**
 
 - 개요 : 차량용 인포테인먼트 시스템 UI 테스트 자동화 도구 개발
 
@@ -259,11 +259,11 @@ layout: default
 
       
 
-## 삼성SDS
+## **삼성SDS**
 
 - 재직기간 : '18.07 ~ 현재
 
-### 1. 반도체 Backend 공정 Factory Planning 서비스 운영
+### **1. 반도체 Backend 공정 Factory Planning 서비스 운영**
 
 - 개요 : 반도체 주문 납기 준수를 위한 일(Daily) 공장 생산 계획 수립 및 시뮬레이션
 - 주요 역할
