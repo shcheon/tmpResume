@@ -316,7 +316,7 @@ S/W R&D에 관심이 많은 천승현 입니다.
 	
     - 개발 Tool : Visual Studio 2012, MOZART IDE Plugin
 
-    ![mozart](/assets/img/mozart.png)
+    ![mozart](/assets/img/Mozart.png)
 	
   - 일 생산 계획 보정 및 기준정보 조회용 UI 개발(Sub업무)
   
