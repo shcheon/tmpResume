@@ -6,7 +6,7 @@ layout: default
 ---
 
 안녕하세요.<br>
-S/W 아키텍트로 성장하고 싶은 천승현 입니다.
+S/W 아키텍트가 되고싶은 천승현 입니다.
 
 # **Table of Contents**
 * TOC
