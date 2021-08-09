@@ -28,7 +28,7 @@ layout: default
 
 - [**S.H. Cheon**, S.W. Ha, Y.H. Moon, "Hardware In-the-Loop Simulation Platform for Image-based Object Tracking Method using Small UAV", The 35th IEEE Digital Avionics System Conference, Sep. 2016](https://ieeexplore.ieee.org/document/7778031)
 
-<br><br><br>
+<br><br>
 
 # **대학교**
 
