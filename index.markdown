@@ -115,7 +115,7 @@ layout: post
   
   - X-PLANE 비행시뮬레이터와 연동
   
-    ![antena](/assets/img/antena.png)
+    ![antena](/assets/img/Antena.png)
 
     ![image-20210808203851671](/assets/img/image-20210808203851671.png)
 
