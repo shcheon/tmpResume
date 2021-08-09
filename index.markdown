@@ -252,7 +252,7 @@ S/W R&D에 관심이 많은 천승현 입니다.
 	
     - 개발 Tool : Android Studio
 
-    ![MemoryLeak](/assets/img/MemoryLeak.png)
+    ![MemoryLeak](/assets/img/MemoryLeak.jpg)
 
 <br><br>
 
