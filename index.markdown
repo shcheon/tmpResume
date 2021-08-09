@@ -192,6 +192,21 @@ layout: default
   
   - 개발 Tool : Intellij
 
+- 오픈소스를 활용한 영상기반 객체추적 비행 시뮬레이션 비행 환경 구축
+  
+  - 개발 언어 : C++, Java
+  - 개발 환경 : Linux
+  - API 및 라이브러리 : Java 3D, OpenCV, QT(GUI), MAVLink, JMAVSim
+  - 개발 Tool : IntelliJ, QtCreator
+
+- 연구 결과
+
+  - 영상 기반 객체 추적 비행 알고리즘 구현 영상보기 1
+  
+  - 영상 기반 객체 추적 비행 알고리즘 구현 영상보기 2
+  
+  - 영상 기반 객체 추적 비행 시뮬레이션 환경 구축 영상보기
+  
 
 
 # 개발자 성장이력 - 회사
