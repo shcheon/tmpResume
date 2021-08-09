@@ -222,8 +222,6 @@ layout: default
   
   - [VISTA 솔루션 개발](https://www.suresofttech.com/ko/html/tool/inter_vista.php)
 
-<br><br>
-
 ### **PROV for Android 솔루션 개발**
 
 - 개요 : 안드로이드 기반 인포테인먼트 시스템에서 발생하는 메모리 누스를 검출하는 모듈 개발
