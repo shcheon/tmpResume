@@ -200,6 +200,10 @@ layout: default
  
   - 개발 Tool : IntelliJ, QtCreator
 
+	![simulation-env](/assets/img/Simulation Env.png)
+	<br><br>
+	![simulator-diagram](/assets/img/Simulator Diagram.png)
+
 - 연구 결과
 
   - [영상 기반 객체 추적 비행 알고리즘 구현 영상보기 1](https://www.youtube.com/watch?v=rUZeQo1Jiss)
