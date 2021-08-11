@@ -42,7 +42,7 @@ S/W R&D에 관심이 많은 천승현 입니다.
 
 	- 개발언어 : Java, Android 3.0.1 (Icecream Sandwitch)
 
-	- API 및 라이브러리 : Android GDI, Java swing/awt
+	- API 및 라이브러리 : Android GDI
 
 	- 개발 Tool : Android Studio, Eclipse
 
