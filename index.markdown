@@ -37,7 +37,7 @@ layout: default
 
 - 재직기간 : '18.07 ~ 현재
 
-### **반도체 Backend 공정 Factory Planning 서비스 운영**
+### **반도체 Backend 공정 Factory Planning Backend서버 운영**
 
 - 개요 : Week 단위의 반도체 생산 계획을 Day 단위로 설비의 Capacity를 고려하여 생산계획을 생성하는 Backend 서버를 운영함
 
