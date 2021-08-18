@@ -257,8 +257,6 @@ S/W R&D에 관심이 많은 천승현 입니다.
   
     - Android Open Source 전체 빌드하는데 6시간 가량 소요되므로, 안드로이드 오픈소스 내에 제공하는 빌드 스크립트를 활용하여 일부 모듈만 빌드하여 개발시간을 단축함.
     
-    - 안드로이드 기반 인포테인먼트 장비에 탑재되는 프로그램 중 Dalvik 가상머신 이외에 영역에서 동작하는 S/W의 메모리 누수를 검출하는 Agent 프로그램을 개발함.
-    
     - malloc, calloc, free, memalign, new, delete 등 C/C++에서 사용하는 동적메모리 할당 키워드가 사용될 때, 호출되는 함수를 Hooking하여 메모리 누수를 감지하기 위한 로직을 구현함
     
     - 해당모듈을 사용하기 위해선 시스템 라이브러리인 Libc.so가 수정되어야 한다는 치명적인 단점이 존재함
@@ -270,9 +268,10 @@ S/W R&D에 관심이 많은 천승현 입니다.
 	- API 및 라이브러리 : [Malloc Debug](https://android.googlesource.com/platform/bionic/+/master/libc/malloc_debug/README.md), UDS Socket(Inter-Process Commnication)
 	
   - 메모리 누수 로그 수집용 App 개발
-    - Process 목록 조회하는 "ps -elf" 명령어을 실행하고자, Android NDK를 이용하여 C 프로그램을 구현하고 이를 Android App에서 Native Process를 실행 할 수 있도록 구현
     
-    - UDS Socket을 이용해 대상 Process와의 메세지 통신경로를 지정하고, Thread를 생성하여 대상 프로세스로부터 데이터를 수신받는 Service 기능 구현
+    - Process 목록 조회하는 "ps -elf" 명령어, cpu,mem 등 성능정보를 추출하기 위해, Android NDK로 POSIX API를 호출하는 C 프로그램을 개발함
+    
+    - UDS Socket을 이용해 대상 Process와의 메세지 통신경로를 지정하고, Thread를 생성하여 대상 프로세스로부터 데이터를 수신받는 Service 기능을 구현함
     
     - 동적 메모리 사용 이력을 로그파일로 저장할 때, 로그파일 저장하는 소스코드 영역을 임계영역으로 구성하여 공유자원을 제어하는 기능 구현
     
@@ -295,9 +294,10 @@ S/W R&D에 관심이 많은 천승현 입니다.
 - 주요 역할
 
   - 인포테인먼트 화면 캡쳐 모듈 개발
-    - ADB jar를 이용하여 안드로이드 화면을 캡쳐 명령어를 전송 후 안드로이드 장비로부터 영상 파일을 추출하는 모듈 개발
+  - 
+    - ADB jar를 이용하여 안드로이드 화면 캡쳐 및 이미지 파일로 추출하는 모듈 개발
     
-    - Kitkat 버전의 Android Framework에서는 Jpeg 확장자로 화면을 캡쳐하는 API가 지원되지 않아, Android Platform 빌드때 사용하는 라이브러리를 이용하여 화면을 캡쳐하는 Native용 프로그램 개발
+    - Android Platform 빌드때 사용하는 라이브러리를 이용하여 화면을 캡쳐하는 Native용 프로그램 개발
 
     - 개발 언어 : C++, Java 
     
@@ -307,11 +307,10 @@ S/W R&D에 관심이 많은 천승현 입니다.
         
 
   - Deep Learning 모델 학습 환경 구축
-    - Android UI 화면을 테스트하기 위해, 매번 테스트 스크립트 작성해야하는 비효율적인 스크립트 코딩업무를 줄이고자, UI의 메뉴 진입경로를 자동적으로 추출해주는 모듈 개발하기 위한 딥러닝 모델 개발
-    
-    - 오픈소스를 활용하여 영상파일에서 객체 영역을 찾아내는 딥러닝 모델 학습환경 구축
-    
-    - Tensorflow Object Detection API 전용의 Image Labeling Tool을 이용하여 인포테이먼트 장비 이미지 Dataset 구축
+
+    - Android UI 화면을 테스트하기 위해, 매번 테스트 스크립트 작성해야하는 비효율적인 코딩업무를 줄이고자, UI의 메뉴 진입경로를 자동적으로 추출해주는 로직 개발
+        
+    - Tensorflow Object Detection API를 활용하여, 딥러닝 모델 학습 및 Image Labeling Tool을 이용하여 인포테이먼트 장비 이미지 Dataset 생성
 
     - 개발 언어 : Python
 
