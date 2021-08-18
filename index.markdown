@@ -38,13 +38,14 @@ S/W R&D에 관심이 많은 천승현 입니다.
 
 - 개발기간 : '13.05.01 ~ '13.06.30 (3개월)
 
-- 주요역할 : Object Oriented Programming 지향 S/W 구조 설계 및 Android App 개발 
-
-	- 개발언어 : Java, Android 3.0.1 (Icecream Sandwitch)
-
-	- API 및 라이브러리 : Android GDI
-
-	- 개발 Tool : Android Studio, Eclipse
+- 주요역할 
+    - Tetris 게임 자료구조 설계 및 이벤트 처리 및 Graphic UI 구현
+       
+       - 개발언어 : Java, Android 3.0.1 (Icecream Sandwitch)
+       
+       - API 및 라이브러리 : Android GDI
+       
+       - 개발 Tool : Android Studio
 
 	![image-20210808210941608](/assets/img/image-20210808210941608.png)
 
@@ -58,8 +59,12 @@ S/W R&D에 관심이 많은 천승현 입니다.
 
 - 주요 역할
 
-  - Client 개발
-  
+  - Android App 개발
+
+    - 화면전환 Animation을 사용하지 않고자, Fragment UI로 구성.
+    - 서버로부터 전송받은 데이터를 Android 내장된 SQLite를 활용하여 Database에 저장하는 기능 구현
+    - IP Camera로부터 전송받은 MJPEG 이미지를 Android 화면으로 실시간 출력해주는 View기능 구현
+      
     - 개발언어 : Android 2.3 (gingerbread), Java
 	
     - API 및 라이브러리 : Http API, SQLite, MJPEG, Fragment UI 구성
@@ -67,14 +72,14 @@ S/W R&D에 관심이 많은 천승현 입니다.
     - 개발 Tool : Eclipse, Android SDK
 	
   - Server 개발
-  
-    - APM Server 로 서버 구축
-	
+    
+    - Google Cloud Message API를 이용하여 Android Push 메세지 전송 기능 구현, MySql Database로 데이터를 CRUD하는 기능 구현
+  	
     - 개발언어 : PHP, MySQL
 	
     - 웹 어플리케이션 서버 : Apache Tomcat
 	
-    - API 및 라이브러리 : GCM(=Google Cloud Message) Server
+    - API 및 라이브러리 : GCM(=Google Cloud Message) API 활용
 
 	![image-20210808193038964](/assets/img/image-20210808193038964.png) ![image-20210808193055479](/assets/img/image-20210808193055479.png)
 
@@ -89,6 +94,8 @@ S/W R&D에 관심이 많은 천승현 입니다.
 - 주요 역할
 
   - Firmware 개발 
+    
+    - Piconet(1:N통신) 기능을 지원하는 Bluetooth 칩 구매 후 MCU register 프로그래밍을 통해 Atcommand를 전송하는 펌웨어 개발 
 
     - 개발언어 : C언어 
 
@@ -111,6 +118,8 @@ S/W R&D에 관심이 많은 천승현 입니다.
 - 주요 역할
 
   - GPS 기반 지향 및 고도각 계산, Antena 동작 시각화 구현
+    
+    - OpenGL을 이용하여 구현한 안테나 모형을 직교좌표계에 해당하는 GPS데이터를 극좌표로 변환하여 안테나의 지향방향을 시각화 함.
 
     - 개발 언어 : C언어
 
