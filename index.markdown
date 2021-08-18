@@ -143,10 +143,8 @@ S/W R&D에 관심이 많은 천승현 입니다.
 
 - 주요 역할
   
-  - 객체 검출(특징점 추출, 차영상), 인식 (SURF, Template Matching), 추적(KLT 추적기, Meanshift) 기법 연구
-     
-     - 특징점 추출 : 2차원 데이터 인
-     
+  - 객체 검출(특징점 추출, 차영상), 인식 (SURF, Template Matching), 추적(KLT 추적기, Meanshift) 동향 조사     
+    
      - 개발 언어 : C++
 
      - API 및 라이브러리 : OpenCV
