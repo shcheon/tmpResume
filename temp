@@ -1,0 +1,96 @@
+여러 분야의 레거시 프로젝트를 분석하며, S/W 아키텍쳐, 자료구조, 알고리즘을 이해하는 역량을 키워왔으며, 또한 다양한 개발환경에서의 디버깅을 수행할 수 있는 경험도 보유하고 있습니다.
+
+ㅁ 반도체 후공정 생산 계획 Backend 서버 운영
+ㅇ Week 단위의 반도체 생산 계획을 Day 단위로 생산계획을 설비의 Capa를 고려하여 계획을 생성하는 Backend 서버를 운영함
+* SQL Join을 이용한 데이터 전처리 및 가공 및 SQL Tuning 수행
+- 기술 요소 : Oracle Database, PL/SQL, SunOS, Cron
+
+* 반도체 생산 계획 보정 및 기준정보 등록/수정/삭제 용 UI 유지보수
+- CRUD 수행용 WEB/WAS Server 운영
+- 기술 요소 : Java 6, Spring Framework 3.0 , Oracle Http Server, WebLogic 9.2, Spring, X-Platform (TOBESOFT 기업용 Solution)
+
+* MOZART Framework를 활용한 일 생산 계획 수립 비즈니스 로직 구현
+- 기술 요소 : C#, .NET Framework 4.6, MOZART Framework (기업용 Framework)
+
+* JDBC API를 이용한 DB to DB 간 데이터 전송 프로그램 운용
+- 기술 요소 : Java 6, OJDBC jar, SunOS
+
+* 레거시 프로젝트 TDD 개발환경 구축 및 리팩토링 업무 수행
+- 기술 요소 : C# - MStest,Moq / Java - JUnit, Mockito, spring-test
+
+
+ㅁ 안드로이드 테트리스 게임 앱 개발
+ㅇ Tetris 게임 자료구조 설계 및 이벤트 처리 및 Graphic UI 구현
+- 개발언어 : Java, Android 3.0.1 (Icecream Sandwitch), Android GDI
+
+
+ㅁ 어린이 집 종합관리용 서비스 개발
+ㅇ 아동 폭행 사건 예방 및 어린이 집 관리자와 학부모와 소통하기 편리한 서비스를 구축하기 위해 진행한 프로젝트
+ * Android App 개발 
+  - 화면전환 Animation을 사용하지 않고자, Fragment UI로 구성.
+  - IP Camera로부터 전송받은 MJPEG 이미지를 Android 화면으로 실시간 출력해주는 View기능 구현
+  - 기술요소(Android): Android 2.3 (gingerbread), Java, Http API, SQLite, MJPEG, Fragment UI Library
+ * Server 개발
+  - 서버로부터 전송받은 데이터를 Android 내장된 SQLite를 활용하여 Database에 저장하는 기능 구현
+  - Google Cloud Message API를 이용하여 Android Push 메세지 전송 기능 구현, MySql Database로 데이터를 CRUD하는 기능 구현
+  - 기술요소(Server) : PHP, MySQL, Apache Tomcat, GCM(=Google Cloud Message) API 
+
+
+ㅁ 영상기반 객체 추적 비행 알고리즘 연구 및 플랫폼 개발
+ㅇ 드론으로 영상기반 객체추적 비행 알고리즘 구현 및 시뮬레이션 환경을 구축하기 위해 진행한 프로젝트
+ * 비행 제어용 Board인 PIXHAWK H/W에 탑재되는 RTOS 및 내부 S/W 아키텍쳐 분석
+  - 기술요소 : C++, CMake, PX4, MAVLink(Data Protocol), uORB (Inter-Process Communication 용 Message 전송 API)
+
+ * 카메라 영상을 활용한 드론 객체 추적 비행 알고리즘 구현
+  - 기술요소 : c++, OpenCV, Linux, PID Controller, Speeded-Up Robust Features
+
+ * 오픈소스를 활용한 영상기반 객체추적 비행 시뮬레이션 비행 환경 구축
+  - PIXHAWK 보드 전용 비행 시뮬레이터에서 제공하는 화면을 캡쳐하여, 해당 이미지 상에서 객체 인식 및 비행제어 명령을 전송하여 가상의 환경에서 비행 결과를 확인할 수 있는 테스트 베드를 구축함
+  - 기술요소 : C++, Java, Linux, Java 3D, OpenCV, QT(GUI), MAVLink, JMAVSim(비행 시뮬레이터 오픈소스)
+
+ㅁ PROV for Android 솔루션 개발
+ㅇ 안드로이드 기반 인포테인먼트 시스템에서 발생하는 메모리 누수를 검출하는 솔루션 개발언어
+ * Native 메모리 누수 검출 모듈 개발
+  - malloc, calloc, free, memalign, new, delete 등 C/C++에서 사용하는 동적메모리 할당 키워드가 사용될 때, 호출되는 함수를 Hooking하여 메모리 누수를 감지하기 위한 로직을 구현함
+  - 기술요소 : C++, Linux OS, Android Platform Development Kit, Malloc Debug, UDS Socket
+ * Process 별 메모리 할당/해제 로그 수집용 Agent App 개발언어
+  - Android에서 실행되는 여러개의 Native Process로부터 전송하는 메모리 할당/해제 사용 로그를 수집하고 파일 형태로 기록하는 로직을 Thread, Queue, 임계영역, IPC를 이용하여 로그를 수집용
+  - 기술요소 : Java, C/C++, Android NDK, SDK
+  
+  
+  ==========================================================================================
+  
+  대표 프로젝트는 삼성전자의 반도체 후공정의 생산계획을 수립하는 Backend 서버 운영 경험입니다.
+네이버 파이낸셜의 실시간 및 대용량 트랜잭션 처리를 수행하기 위한 기술 스택은 다르지만, 24시간 서비스 운영 및 대용량 데이터를 신속하고 빠르게 처리해야한다는 특징은 동일하다고 생각합니다.
+
+서비스를 운영하며 수행한 역할은 아래와 같습니다.
+
+1. 반도체 기준정보 데이터 전처리 및 가공 S/W 유지보수
+- 100개 이상의 테이블을 관리하고, 100만건 이상의 데이터를 보유한 테이블로부터 SQL Join을 통해 데이터를 가공하는 로직을 구현하고, SQL Tuning을 통해 처리시간을 단축하는 업무를 담당하였습니다. 
+- 개발 언어 : PL/SQL
+- 운영 환경 : Oracle Database, SunOS
+- API 및 라이브러리 : PL/SQL의 Procedure/Package 기반 개발, Linux의 Cron기능을 활용한 Oracle SQL Batch실행 프로그램 관리
+
+2. 반도체 생산 계획 보정 및 기준정보 등록/수정/삭제 UI 개발
+- 반도체 데이터를 단순히 CRUD를 수행하는 Web UI를 운영하였지만, 사용자 영역에서 처리해야하는 Front영역과 Backend영역에서 해당하는 사용자 인증, 시큐어 코딩, 데이터 조회 및 처리 등에 대한 Web서비스 과정을 이해하였습니다.
+- 개발 언어 : Java 6, Spring Framework 3.0
+- 운영 환경 : Oracle Http Server, WebLogic 9.2, Spring, X-Platform (TOBESOFT 기업용 Solution)
+
+3. MOZART Framework를 활용한 일 생산 계획 수립 비즈니스 로직 구현 담당
+- 30개 이상의 DB 테이블를 In-Memory로 로딩하여, 반도체 생산계획을 수립하기 위한 복잡한 비즈니스 로직을 구현하는 업무를 담당하였습니다. 해당 업무를 수행하며 대용량 데이터를 처리하는 프로그램을 설계, 디버깅, 자료구조, 알고리즘에 관한 역량을 키웠습니다.
+개발 언어 : C#
+개발 환경 : .NET Framework 4.6
+API 및 라이브러리 : MOZART Framework (기업용 Framework)
+개발 Tool : Visual Studio 2012, MOZART IDE Plugin(기업용 Plugin)
+
+4. JDBC API를 이용한 DB to DB 간 데이터 전송 프로그램 운용
+- 삼성전자의 반도체 시스템은 많은 시스템과 유기적으로 데이터를 송수신하고 가공하기 때문에, Database 간의 데이터를 송수신하는 프로그램을 운영하였습니다. 
+- 개발 언어 : Java 6, OJDBC jar
+- 운영 환경 : SunOS
+
+5. 레거시 프로젝트 TDD 개발환경 구축 및 리팩토링 업무 수행
+- C#, Java, Spring Framework 개발 환경에서 단위테스트 코드를 작성하여 비즈니스 로직을 검증하는 방법으로 S/W를 구현하는 방법을 도입하고, 
+  코드 품질에 해당하는 Cyclomatic Complexity, LinesOfCode, CouplingBetweenObjects, Modular Circular Dependency, Duplicate Codes 지표 점수를 높이기 위해 코드를 리팩토링 하는 업무를 진행하였습니다.
+- 개발 언어 및 테스트 라이브러리: C# - MStest,Moq / Java - JUnit, Mockito, spring-test
+
+반도체 비즈니스 및 기술 스택에 기반하여 경험해 온 IT 역량이 금용 플랫폼의 backend 서버와는 일치하지 않는 기술영역이지만, 지금까지 다양한 S/W 개발경험을 통해 웹 서비스 분야에도 빠르게 적응하여 성과를 낼 수 있는 인재가 되도록 노력하겠습니다.
