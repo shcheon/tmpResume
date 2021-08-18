@@ -299,9 +299,10 @@ S/W R&D에 관심이 많은 천승현 입니다.
     - API 및 라이브러리 : [Android Debug Bridge](https://developer.android.com/studio/command-line/adb)
         
 
-  - Deep Learning 학습 파이프라인 구축
+  - Deep Learning 모델 학습 환경 구축
     - Android UI 화면을 테스트하기 위해, 매번 테스트 스크립트 작성해야하는 비효율적인 스크립트 코딩업무를 줄이고자, UI의 메뉴 진입경로를 자동적으로 추출해주는 모듈 개발하기 위한 딥러닝 모델 개발
-    - 오픈소스를 활용하여 영상파일에서 객체 영역을 찾아내는 딥러닝 모델 학습환경 구축  
+    - 오픈소스를 활용하여 영상파일에서 객체 영역을 찾아내는 딥러닝 모델 학습환경 구축
+    - Tensorflow Object Detection API 전용의 Image Labeling Tool을 이용하여 인포테이먼트 장비 이미지 Dataset 구축
 
     - 개발 언어 : Python
 
