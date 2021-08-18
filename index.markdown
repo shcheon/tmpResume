@@ -95,7 +95,7 @@ S/W R&D에 관심이 많은 천승현 입니다.
 
   - Firmware 개발 
     
-    - Piconet(1:N통신) 기능을 지원하는 Bluetooth 칩 구매 후 MCU register 프로그래밍을 통해 Atcommand를 전송하는 펌웨어 개발 
+    - Piconet(1:N통신) 기능을 지원하는 Bluetooth 칩 구매 후 MCU register 프로그래밍을 통해 At Command를 전송하는 펌웨어 개발 
 
     - 개발언어 : C언어 
 
@@ -144,10 +144,12 @@ S/W R&D에 관심이 많은 천승현 입니다.
 - 주요 역할
   
   - 객체 검출(특징점 추출, 차영상), 인식 (SURF, Template Matching), 추적(KLT 추적기, Meanshift) 기법 연구
-	
-	- 개발 언어 : C++
+     
+     - 특징점 추출 : 2차원 데이터 인
+     
+     - 개발 언어 : C++
 
-	- API 및 라이브러리 : OpenCV
+     - API 및 라이브러리 : OpenCV
 
 - 연구 결과
 
@@ -163,19 +165,21 @@ S/W R&D에 관심이 많은 천승현 입니다.
 
 - 개요 : SURF 알고리즘 성능 최적화를 위한 연구
 
-- 주요 역할 : OpenSURF 소스를 활용한 알고리즘 병목현상 분석 및 개선
-
-	- 개발 언어 : C++
-
-	- API 및 라이브러리 : OpenCV, OpenSURF
+- 주요 역할
+   
+   - SURF(=Speeded-Up Robust Features) 알고리즘을 C++로 구현된 OpenSURF 소스 프로젝트를 활용하여, 알고리즘의 병목현상을 분석하여 중복 연산 제거, 메모리 재사용율 개선을 통해 알고리즘 성능을 개선함.
+     
+     - 개발 언어 : C++
+     
+     - API 및 라이브러리 : OpenCV, OpenSURF
 
 - 연구 결과
-	- 기존 알고리즘 계산시간 대비 30% 시간을 절감
+
+   - 기존 알고리즘 계산시간 대비 30% 시간을 절감
 	
-	- 기존 알고리즘 대비 메모리 사용율 35% 절감
+   - 기존 알고리즘 대비 메모리 사용율 35% 절감
 	
-	- SCI, SCIE 논문 게재
-	
+   - SCI, SCIE 논문 게재
 	
 	![SCI_Paper](/assets/img/SCI_Paper.png)
 	<br><br><br><br>
@@ -185,29 +189,39 @@ S/W R&D에 관심이 많은 천승현 입니다.
 
 ## **영상기반 객체 추적 비행 알고리즘 연구 및 플랫폼 개발**
 
-- 개요 : 드론으로 영상기반 객체추적 비행알고리즘 구현 및 시뮬레이션 환경 구축
+- 개요 : 드론으로 영상기반 객체추적 비행 알고리즘 구현 및 시뮬레이션 환경 구축
 
 - 주요 역할
 
-  - 개발 언어 : C++
-  
-  - API 및 라이브러리 : OpenCV, [MAVLink(Data Protocol)](https://github.com/mavlink/mavlink), [PX4](https://github.com/PX4/PX4-Autopilot)
-  
-  - 개발환경 : Linux
-  
-  - 사용 알고리즘 : PID Controller(제어), [SURF](https://github.com/stephen-mi11er/opensurf)(영상인식), [Location Matching](https://m.earticle.net/Article/A158894)(객체추적)
-  
-  - 개발 Tool : Intellij
+  - 비행 제어용 Board인 PIXHAWK H/W에 탑재되는 RTOS 및 내부 S/W 아키텍쳐 분석
 
-- 오픈소스를 활용한 영상기반 객체추적 비행 시뮬레이션 비행 환경 구축
+     - 개발 언어 : C+++
+     
+     - API 및 라이브러리 : CMake, [PX4](https://github.com/PX4/PX4-Autopilot), [MAVLink(Data Protocol)](https://github.com/mavlink/mavlink), uORB (Inter-Process Communication 용 Message 전송 API)
+
+  - 카메라 영상을 활용한 드론 객체 추적 비행 알고리즘 구현
+
+     - 개발 언어 : C++
   
-  - 개발 언어 : C++, Java
- 
-  - 개발 환경 : Linux
+     - API 및 라이브러리 : OpenCV,
   
-  - API 및 라이브러리 : Java 3D, OpenCV, QT(GUI), [MAVLink](https://github.com/mavlink/mavlink), [JMAVSim](https://github.com/PX4/jMAVSim)
- 
-  - 개발 Tool : IntelliJ, QtCreator
+     - 개발환경 : Linux
+  
+     - 사용 알고리즘 : PID Controller(제어), [SURF](https://github.com/stephen-mi11er/opensurf)(영상인식), [Location Matching](https://m.earticle.net/Article/A158894)(객체추적)
+  
+     - 개발 Tool : Intellij
+
+   - 오픈소스를 활용한 영상기반 객체추적 비행 시뮬레이션 비행 환경 구축
+     
+     - PIXHAWK 보드 전용 비행 시뮬레이터에서 제공하는 화면을 캡쳐하여, 해당 이미지 상에서 객체 인식 및 비행제어 명령을 전송하여 가상의 환경에서 비행 결과를 확인할 수 있는 테스트 베드를 구축함.
+  
+     - 개발 언어 : C++, Java
+     
+     - 개발 환경 : Linux 
+     
+     - API 및 라이브러리 : Java 3D, OpenCV, QT(GUI), [MAVLink](https://github.com/mavlink/mavlink), [JMAVSim](https://github.com/PX4/jMAVSim)
+     
+     - 개발 Tool : IntelliJ, QtCreator
 
 	![simulation-env](/assets/img/SimulationEnv.png)
 	<br><br>
@@ -243,23 +257,28 @@ S/W R&D에 관심이 많은 천승현 입니다.
 
   - Native 메모리 누수 검출 모듈 개발
   
+    - Android Open Source 전체 빌드하는데 6시간 가량 소요되므로, 안드로이드 오픈소스 내에 제공하는 빌드 스크립트를 활용하여 일부 모듈만 빌드하여 개발시간을 단축함.
+    - 안드로이드 기반 인포테인먼트 장비에 탑재되는 프로그램 중 Dalvik 가상머신 이외에 영역에서 동작하는 S/W의 메모리 누수를 검출하는 Agent 프로그램을 개발함.
+    - malloc, calloc, free, memalign, new, delete 등 C/C++에서 사용하는 동적메모리 할당 키워드가 사용될 때, 호출되는 함수를 Hooking하여 메모리 누수를 감지하기 위한 로직을 구현함
+    - 해당모듈을 사용하기 위해선 시스템 라이브러리인 Libc.so가 수정되어야 한다는 치명적인 단점이 존재함
+      
     - 개발 언어 : C++
 	
-    - 개발 환경 : Linux OS, Android PDK (Kitkat 4.4.2), SVN(형상관리)
+    - 개발 환경 : Linux OS, Android Platform Development Kit (Kitkat 4.4.2)
 	
 	- API 및 라이브러리 : [Malloc Debug](https://android.googlesource.com/platform/bionic/+/master/libc/malloc_debug/README.md), UDS Socket(Inter-Process Commnication)
 	
-    - 개발 Tool : Android Open Source에 내장된 Build Script 활용
-	
   - 메모리 누수 로그 수집용 App 개발
+    - Process 목록 조회하는 "ps -elf" 명령어을 실행하고자, Android NDK를 이용하여 C 프로그램을 구현하고 이를 Android App에서 Native Process를 실행 할 수 있도록 구현
+    - UDS Socket을 이용해 대상 Process와의 메세지 통신경로를 지정하고, Thread를 생성하여 대상 프로세스로부터 데이터를 수신받는 Service 기능 구현
+    - 동적 메모리 사용 이력을 로그파일로 저장할 때, 로그파일 저장하는 소스코드 영역을 임계영역으로 구성하여 공유자원을 제어하는 기능 구현
+    - 로그 File I/O을 줄이기 위해, Queue를 활용하는 로직 구현
   
-    - 개발 언어 : Java
+    - 개발 언어 : Java, C/C++
 	
     - 개발 환경 : Android NDK, Android SDK (Kitkat 4.4.2)
 	
     - API 및 라이브러리 : Android Component
-	
-    - 개발 Tool : Android Studio
 
     ![MemoryLeak](/assets/img/MemoryLeak.png)
 
@@ -272,17 +291,19 @@ S/W R&D에 관심이 많은 천승현 입니다.
 - 주요 역할
 
   - 인포테인먼트 화면 캡쳐 모듈 개발
+    - ADB jar를 이용하여 안드로이드 화면을 캡쳐 명령어를 전송 후 안드로이드 장비로부터 영상 파일을 추출하는 모듈 개발
+    - Kitkat 버전의 Android Framework에서는 Jpeg 확장자로 화면을 캡쳐하는 API가 지원되지 않아, Android Platform 빌드때 사용하는 라이브러리를 이용하여 화면을 캡쳐하는 Native용 프로그램 개발
 
     - 개발 언어 : C++, Java 
     
-    - 개발 환경 : Android PDK (Kitkat 4.4.2), SVN (형상관리) 
+    - 개발 환경 : Android PDK (Kitkat 4.4.2)
     
     - API 및 라이브러리 : [Android Debug Bridge](https://developer.android.com/studio/command-line/adb)
-    
-    - 개발 Tool : Ecilpse
-    
+        
 
   - Deep Learning 학습 파이프라인 구축
+    - Android UI 화면을 테스트하기 위해, 매번 테스트 스크립트 작성해야하는 비효율적인 스크립트 코딩업무를 줄이고자, UI의 메뉴 진입경로를 자동적으로 추출해주는 모듈 개발하기 위한 딥러닝 모델 개발
+    - 오픈소스를 활용하여 영상파일에서 객체 영역을 찾아내는 딥러닝 모델 학습환경 구축  
 
     - 개발 언어 : Python
 
@@ -305,21 +326,17 @@ S/W R&D에 관심이 많은 천승현 입니다.
 
 - 주요 역할
 
-  - 반도체 기준정보 가공 및 처리 모듈 개발(Sub업무)
+  - 반도체 기준정보 가공 및 처리 모듈 개발
   
     - 개발 언어 : PL/SQL
 	
-    - 개발 환경 : SunOS, Dimension(형상관리)
-	
     - API 및 라이브러리 : Procedure/Package 구현, Oracle Database 19c, cron
 	
-    - 개발 Tool : Toad, SQL Developer
-	
-  - 일 생산 계획 수립 모듈 비즈니스 로직 구현(Main업무)
+  - 일 생산 계획 수립 모듈 비즈니스 로직 구현
   
     - 개발 언어 : C#
 	
-    - 개발 환경 : .NET Framework 4.6, SVN(형상관리)
+    - 개발 환경 : .NET Framework 4.6
 	
     - API 및 라이브러리 : [MOZART Framework](http://www.vmsmozart.com/index.php?mc=a&md=04&t=)
 	
@@ -327,12 +344,10 @@ S/W R&D에 관심이 많은 천승현 입니다.
 
     ![mozart](/assets/img/Mozart.png)
 	
-  - 일 생산 계획 보정 및 기준정보 조회용 UI 개발(Sub업무)
+  - 일 생산 계획 보정 및 기준정보 조회용 UI 개발
   
     - 개발 언어 : Java 6
 	
     - 개발 환경 : Jetty 6.1.26 (Local 개발), WebLogic 10.3.6(운영) Oracle Http Server, Dimension(형상관리), XPlatform
 	
     - API 및 라이브러리 : Springframework 3.0, Slf4j, [Anyframe-core, Anyframe-xp-query, Anyframe-xplatform, Anyframe-datasource](https://github.com/anyframejava)
-	
-    - 개발 Tool : Eclipse, UX Studio
