@@ -186,9 +186,11 @@ layout: default
 
     - SURF알고리즘으로 대상을 인식하는 Matching 기능을 구현하였습니다.
 
-    - 카메라 화면을 중심으로부터 대상의 떨어진 거리를 유클리디안 거리를 측정하여 객체를 카메라 중심으로 볼 수 있게 좌-우
+    - 카메라 화면 중심으로부터 추적 대상의 떨어진 거리를 유클리디안 거리를 측정하여 객체를 카메라 중심으로 볼 수 있게 좌-우 이동을 제어하는 로직을 구현하였습니다.
 
     - 최초로 설정한 객체 영역의 크기 변화에 따라, 전-후 이동을 제어하는 로직을 구현하였습니다. 
+
+    - 전-후, 좌-우 비행 제어 명령을 생성하기 위해 PID Controller 알고리즘을 구현하였습니다.
 
     - 기술 요소 : C++, OpenCV, Linux, PID Controller(제어 알고리즘), [SURF](https://github.com/stephen-mi11er/opensurf)(영상 인식), [Location Matching](https://m.earticle.net/Article/A158894)(객체 추적)  
 
