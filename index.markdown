@@ -49,23 +49,13 @@ layout: default
 
   - MOZART Framework를 활용한 일 생산 계획 수립 비즈니스 로직 구현
   
-     - 개발 언어 : C#
-	
-    - 개발 환경 : .NET Framework 4.6
-	
-    - API 및 라이브러리 : [MOZART Framework](http://www.vmsmozart.com/index.php?mc=a&md=04&t=)
-	
-    - 개발 Tool : Visual Studio 2012, MOZART IDE Plugin
+    - 기술 요소 : C#, .NET Framework 4.6, [MOZART Framework](http://www.vmsmozart.com/index.php?mc=a&md=04&t=)
 
     ![mozart](/assets/img/Mozart.png)
 	
   - 반도체 생산 계획 보정 및 기준정보 등록/수정/삭제 용 UI 유지보수
   
-    - 개발 언어 : Java 6
-	
-    - 개발 환경 : Jetty 6.1.26 (Local 개발), WebLogic 10.3.6(운영) Oracle Http Server, Dimension(형상관리), XPlatform
-	
-    - API 및 라이브러리 : Springframework 3.0, Slf4j, [Anyframe-core, Anyframe-xp-query, Anyframe-xplatform, Anyframe-datasource](https://github.com/anyframejava)
+    - 기술 요소 : Java 6, Spring, Jetty, WebLogic, Oracle Http Server, XPlatform 
 
   - JDBC API를 이용한 DB to DB 간 데이터 전송 프로그램 운용
     
@@ -97,21 +87,13 @@ layout: default
     
     - malloc, calloc, free, memalign, new, delete 등 C/C++에서 사용하는 동적메모리 할당 키워드가 사용될 때, 호출되는 함수를 Hooking하여 메모리 누수를 감지하는 로직을 구현함
       
-    - 개발 언어 : C++
-	
-    - 개발 환경 : Linux OS, Android Platform Development Kit (Kitkat 4.4.2)
-	
-    - API 및 라이브러리 : [Malloc Debug](https://android.googlesource.com/platform/bionic/+/master/libc/malloc_debug/README.md), UDS Socket(Inter-Process Commnication)
+    - 기술 요소 : C++, Linux OS, Android Platform Development Kit, [Malloc Debug](https://android.googlesource.com/platform/bionic/+/master/libc/malloc_debug/README.md), IPC Communication (UDS Socket)
 	
   - 메모리 누수 로그 수집용 App 개발
     
     - Android에서 실행되는 여러개의 Native Process로부터 전송하는 메모리 할당/해제 사용 로그를 수집하고 파일 형태로 기록하는 로직을 Thread, Queue, 임계영역, IPC를 이용하여 로그를 수집하는 기능 구현
   
-    - 개발 언어 : Java, C/C++
-	
-    - 개발 환경 : Android NDK, Android SDK (Kitkat 4.4.2)
-	
-    - API 및 라이브러리 : Android Component
+    - 기술 요소 : Java, C/C++, Android NDK, Android SDK (Kitkat 4.4.2),  Android Component
 
     ![MemoryLeak](/assets/img/MemoryLeak.png)
 
@@ -129,20 +111,14 @@ layout: default
     
     - Android Platform 빌드때 사용하는 라이브러리를 이용하여 화면을 캡쳐하는 Native용 프로그램 개발
 
-    - 개발 언어 : C++, Java 
-    
-    - 개발 환경 : Android PDK (Kitkat 4.4.2)
-    
-    - API 및 라이브러리 : [Android Debug Bridge](https://developer.android.com/studio/command-line/adb)
+    - 기술 요소 : C++, Java, Android PDK (Kitkat 4.4.2), [Android Debug Bridge](https://developer.android.com/studio/command-line/adb)
         
 
   - Deep Learning 모델 학습 환경 구축
 
     - Tensorflow Object Detection API를 활용하여, 딥러닝 모델 학습 및 Image Labeling Tool을 이용하여 인포테이먼트 장비 이미지 Dataset 생성
 
-    - 개발 언어 : Python
-
-    - API 및 라이브러리 : [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
+    - 기술 요소 : Python, [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
     ![DeepLearning2](/assets/img/DeepLearning2.png)
     <br><br>
@@ -161,9 +137,7 @@ layout: default
    
    - SURF(=Speeded-Up Robust Features) 알고리즘을 C++로 구현된 OpenSURF 소스 프로젝트를 활용하여, 알고리즘의 병목현상을 분석하여 중복 연산 제거, 메모리 재사용율 개선을 통해 알고리즘 성능을 개선함.
      
-     - 개발 언어 : C++
-     
-     - API 및 라이브러리 : OpenCV, OpenSURF
+     - 기술 요소 : C++, OpenCV, OpenSURF
 
 - 성과
 
@@ -187,34 +161,18 @@ layout: default
 
   - 비행 제어용 Board인 PIXHAWK H/W에 탑재되는 RTOS 및 내부 S/W 아키텍쳐 분석
 
-     - 개발 언어 : C+++
-     
-     - API 및 라이브러리 : CMake, [PX4](https://github.com/PX4/PX4-Autopilot), [MAVLink(Data Protocol)](https://github.com/mavlink/mavlink), uORB (Inter-Process Communication 용 Message 전송 API)
+     - 기술 요소 : C++, CMake, [PX4](https://github.com/PX4/PX4-Autopilot), [MAVLink(Data Protocol)](https://github.com/mavlink/mavlink), uORB (IPC용 Message 전송 API)
 
   - 카메라 영상을 활용한 드론 객체 추적 비행 알고리즘 구현
 
-     - 개발 언어 : C++
+     - 기술 요소 : C++, OpenCV, Linux, PID Controller(제어 알고리즘), [SURF](https://github.com/stephen-mi11er/opensurf)(영상 인식), [Location Matching](https://m.earticle.net/Article/A158894)(객체 추적)
   
-     - API 및 라이브러리 : OpenCV,
-  
-     - 개발환경 : Linux
-  
-     - 사용 알고리즘 : PID Controller(제어), [SURF](https://github.com/stephen-mi11er/opensurf)(영상인식), [Location Matching](https://m.earticle.net/Article/A158894)(객체추적)
-  
-     - 개발 Tool : Intellij
-
    - 오픈소스를 활용한 영상기반 객체추적 비행 시뮬레이션 비행 환경 구축
      
      - PIXHAWK 보드 전용 비행 시뮬레이터에서 제공하는 화면을 캡쳐하여, 해당 이미지 상에서 객체 인식 및 비행제어 명령을 전송하여 가상의 환경에서 비행 결과를 확인할 수 있는 테스트 베드를 구축함.
   
-     - 개발 언어 : C++, Java
+     - 기술 요소 : C++, Java, Java 3D, OpenCV, Linux, QT(GUI), [MAVLink](https://github.com/mavlink/mavlink), [JMAVSim](https://github.com/PX4/jMAVSim)
      
-     - 개발 환경 : Linux 
-     
-     - API 및 라이브러리 : Java 3D, OpenCV, QT(GUI), [MAVLink](https://github.com/mavlink/mavlink), [JMAVSim](https://github.com/PX4/jMAVSim)
-     
-     - 개발 Tool : IntelliJ, QtCreator
-
 	![simulation-env](/assets/img/SimulationEnv.png)
 	<br><br>
 	![simulator-diagram](/assets/img/SimulatorDiagram.png)
@@ -240,11 +198,7 @@ layout: default
 - 주요역할 
     - Tetris 게임 자료구조 설계 및 이벤트 처리 및 Graphic UI 구현
        
-       - 개발언어 : Java, Android 3.0.1 (Icecream Sandwitch)
-       
-       - API 및 라이브러리 : Android GDI
-       
-       - 개발 Tool : Android Studio
+       - 기술 요소 : Java, Android 3.0.1, Android GDI      
 
 	![image-20210808210941608](/assets/img/image-20210808210941608.png)
 
@@ -264,22 +218,14 @@ layout: default
     - 서버로부터 전송받은 데이터를 Android 내장된 SQLite를 활용하여 Database에 저장하는 기능 구현
     - IP Camera로부터 전송받은 MJPEG 이미지를 Android 화면으로 실시간 출력해주는 View기능 구현
       
-    - 개발언어 : Android 2.3 (gingerbread), Java
-	
-    - API 및 라이브러리 : Http API, SQLite, MJPEG, Fragment UI 구성
-	
-    - 개발 Tool : Eclipse, Android SDK
+    - 기술 요소 : Java, Android 2.3, Http API, SQLite, MJPEG, Fragment
 	
   - Server 개발
     
     - 서버로부터 전송받은 데이터를 Android 내장된 SQLite를 활용하여 Database에 저장하는 기능 구현
     - Google Cloud Message API를 이용하여 Android Push 메세지 전송 기능 구현, MySql Database로 데이터를 CRUD하는 기능 구현
   	
-    - 개발언어 : PHP, MySQL
-	
-    - 웹 어플리케이션 서버 : Apache Tomcat
-	
-    - API 및 라이브러리 : GCM(=Google Cloud Message) API 활용
+    - 기술 요소 : PHP, MySQL, Apache Tomcat, GCM(=Google Cloud Message) API
 
 	![image-20210808193038964](/assets/img/image-20210808193038964.png) ![image-20210808193055479](/assets/img/image-20210808193055479.png)
 
@@ -297,13 +243,7 @@ layout: default
     
     - Piconet(1:N통신) 기능을 지원하는 Bluetooth 칩 구매 후 MCU register 프로그래밍을 통해 At Command를 전송하는 펌웨어 개발 
 
-    - 개발언어 : C언어 
-
-    - API 및 라이브러리 : Bluetooth Piconet (1:N 통신 구현)
-
-    - H/W : Atmega 2560
-
-    - 개발 Tool : AVR Studio, LABVIEW
+    - 기술 요소 : C Language, Bluetooth Piconet (1:N 통신 구현), LABVIEW
 
 	![image-cansat](/assets/img/cansat.png) 
 
@@ -321,11 +261,7 @@ layout: default
     
     - OpenGL을 이용하여 구현한 안테나 모형을 직교좌표계에 해당하는 GPS데이터를 극좌표로 변환하여 안테나의 지향방향을 시각화 함.
 
-    - 개발 언어 : C언어
-
-    - API 및 라이브러리 : OpenGL
-
-    - 개발 Tool : Visual Studio 2012
+    - 기술 요쇼 : C Language, OpenGL, X-PLANE
   
   - X-PLANE 비행시뮬레이터와 연동
   
