@@ -47,9 +47,11 @@ layout: default
   
     - 기술 요소 : Oracle Database, PL/SQL, SunOS, CRON
 
+
   - MOZART Framework를 활용한 일 생산 계획 수립 비즈니스 로직 구현
     
     - 기술 요소 : C#, .NET Framework 4.6, [MOZART Framework](http://www.vmsmozart.com/index.php?mc=a&md=04&t=)
+
 
     ![mozart](/assets/img/Mozart.png)
 	
@@ -57,13 +59,16 @@ layout: default
     
     - 기술 요소 : Java 6, Spring, Jetty, WebLogic, Oracle Http Server, XPlatform 
 
+
   - JDBC API를 이용한 DB to DB 간 데이터 전송 프로그램 운용
     
     - 기술 요소 : Java 6, OJDBC jar, SunOS
   
+  
   - 레거시 프로젝트 TDD 개발환경 구축 및 리팩토링 업무 수행
     
     - 기술 요소 : C# - MStest,Moq / Java - JUnit, Mockito, spring-test
+
 
 <br><br>
 
@@ -88,6 +93,7 @@ layout: default
     - malloc, calloc, free, memalign, new, delete 등 C/C++에서 사용하는 동적메모리 할당 키워드가 사용될 때, 호출되는 함수를 Hooking하여 메모리 누수를 감지하는 로직을 구현함
       
     - 기술 요소 : C++, Linux OS, Android Platform Development Kit, [Malloc Debug](https://android.googlesource.com/platform/bionic/+/master/libc/malloc_debug/README.md), IPC Communication (UDS Socket)
+	
 	
   - 메모리 누수 로그 수집용 App 개발
     
@@ -139,6 +145,7 @@ layout: default
      
      - 기술 요소 : C++, OpenCV, OpenSURF
 
+
 - 성과
 
    - 기존 알고리즘 계산시간 대비 30% 시간을 절감
@@ -163,15 +170,18 @@ layout: default
 
      - 기술 요소 : C++, CMake, [PX4](https://github.com/PX4/PX4-Autopilot), [MAVLink(Data Protocol)](https://github.com/mavlink/mavlink), uORB (IPC용 Message 전송 API)
 
+
   - 카메라 영상을 활용한 드론 객체 추적 비행 알고리즘 구현
 
      - 기술 요소 : C++, OpenCV, Linux, PID Controller(제어 알고리즘), [SURF](https://github.com/stephen-mi11er/opensurf)(영상 인식), [Location Matching](https://m.earticle.net/Article/A158894)(객체 추적)
+  
   
    - 오픈소스를 활용한 영상기반 객체추적 비행 시뮬레이션 비행 환경 구축
      
      - PIXHAWK 보드 전용 비행 시뮬레이터에서 제공하는 화면을 캡쳐하여, 해당 이미지 상에서 객체 인식 및 비행제어 명령을 전송하여 가상의 환경에서 비행 결과를 확인할 수 있는 테스트 베드를 구축함.
   
      - 기술 요소 : C++, Java, Java 3D, OpenCV, Linux, QT(GUI), [MAVLink](https://github.com/mavlink/mavlink), [JMAVSim](https://github.com/PX4/jMAVSim)
+     
      
 	![simulation-env](/assets/img/SimulationEnv.png)
 	<br><br>
@@ -220,6 +230,7 @@ layout: default
       
     - 기술 요소 : Java, Android 2.3, Http API, SQLite, MJPEG, Fragment
 	
+	
   - Server 개발
     
     - 서버로부터 전송받은 데이터를 Android 내장된 SQLite를 활용하여 Database에 저장하는 기능 구현
@@ -228,6 +239,7 @@ layout: default
     - 기술 요소 : PHP, MySQL, Apache Tomcat, GCM(=Google Cloud Message) API
 
 	![image-20210808193038964](/assets/img/image-20210808193038964.png) ![image-20210808193055479](/assets/img/image-20210808193055479.png)
+
 
 <br><br>
 
@@ -244,6 +256,7 @@ layout: default
     - Piconet(1:N통신) 기능을 지원하는 Bluetooth 칩 구매 후 MCU register 프로그래밍을 통해 At Command를 전송하는 펌웨어 개발 
 
     - 기술 요소 : C Language, Bluetooth Piconet (1:N 통신 구현), LABVIEW
+
 
 	![image-cansat](/assets/img/cansat.png) 
 
@@ -262,6 +275,7 @@ layout: default
     - OpenGL을 이용하여 구현한 안테나 모형을 직교좌표계에 해당하는 GPS데이터를 극좌표로 변환하여 안테나의 지향방향을 시각화 함.
 
     - 기술 요쇼 : C Language, OpenGL, X-PLANE
+  
   
   - X-PLANE 비행시뮬레이터와 연동
   
