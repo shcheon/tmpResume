@@ -160,19 +160,20 @@ layout: default
 - 개요 : 드론으로 영상기반 객체추적 비행 알고리즘 구현 및 시뮬레이션 환경 구축
 
 - 주요 역할
+
   - 비행 제어용 Board인 PIXHAWK H/W에 탑재되는 RTOS 및 내부 S/W 아키텍쳐 분석
 
-     - 기술 요소 : C++, CMake, [PX4](https://github.com/PX4/PX4-Autopilot), [MAVLink(Data Protocol)](https://github.com/mavlink/mavlink), uORB (IPC용 Message 전송 API)
+    - 기술 요소 : C++, CMake, [PX4](https://github.com/PX4/PX4-Autopilot), [MAVLink(Data Protocol)](https://github.com/mavlink/mavlink), uORB (IPC용 Message 전송 API)
 
   - 영상기반 드론 객체 추적 비행 알고리즘 구현
 
-     - 기술 요소 : C++, OpenCV, Linux, PID Controller(제어 알고리즘), [SURF](https://github.com/stephen-mi11er/opensurf)(영상 인식), [Location Matching](https://m.earticle.net/Article/A158894)(객체 추적)  
+    - 기술 요소 : C++, OpenCV, Linux, PID Controller(제어 알고리즘), [SURF](https://github.com/stephen-mi11er/opensurf)(영상 인식), [Location Matching](https://m.earticle.net/Article/A158894)(객체 추적)  
 
   - 오픈소스를 활용한 영상기반 객체추적 비행 시뮬레이션 비행 환경 구축
 
-     - PIXHAWK 보드 전용 비행 시뮬레이터에서 제공하는 화면을 캡쳐하여, 해당 이미지 상에서 객체 인식 및 비행제어 명령을 전송하여 가상의 환경에서 비행 결과를 확인할 수 있는 테스트 베드를 구축하는 연구를 진행하였습니다.
+    - PIXHAWK 보드 전용 비행 시뮬레이터에서 제공하는 화면을 캡쳐하여, 해당 이미지 상에서 객체 인식 및 비행제어 명령을 전송하여 가상의 환경에서 비행 결과를 확인할 수 있는 테스트 베드를 구축하는 연구를 진행하였습니다.
 
-     - 기술 요소 : C++, Java, Java 3D, OpenCV, Linux, QT(GUI), [MAVLink](https://github.com/mavlink/mavlink), [JMAVSim](https://github.com/PX4/jMAVSim
+    - 기술 요소 : C++, Java, Java 3D, OpenCV, Linux, QT(GUI), [MAVLink](https://github.com/mavlink/mavlink), [JMAVSim](https://github.com/PX4/jMAVSim
      
 	![simulation-env](/assets/img/SimulationEnv.png)
 	<br><br>
@@ -180,7 +181,9 @@ layout: default
 
 - 결과물
     - [영상 기반 객체 추적 비행 알고리즘 구현 영상보기 1](https://www.youtube.com/watch?v=rUZeQo1Jiss)
+
     - [영상 기반 객체 추적 비행 알고리즘 구현 영상보기 2](https://www.youtube.com/watch?v=wVBL-0HvnYU)
+
     - [영상 기반 객체 추적 비행 시뮬레이션 환경 구축 영상보기](https://www.youtube.com/watch?v=pxsQ5IP9HO4)
   
 <br><br>
