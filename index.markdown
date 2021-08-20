@@ -47,13 +47,19 @@ layout: default
 
   - SQL Join을 이용한 데이터 전처리 및 가공 및 SQL Tuning 수행
 
-    - 100개 이상의 테이블 관리 및 100만건 이상의 데이터를 SQL Join을 통해 데이터를 가공하는 로직을 구현하고, SQL Tuning을 통해 처리시간을 단축하는 업무를 담당하였습니다.
+    - 100개 이상의 테이블 관리 및 100만건 이상의 데이터를 SQL Join을 통해 데이터를 가공하는 로직을 구현 업무를 담당하였습니다.
 
-    - 기술 요소 : Oracle Database, PL/SQL, SunOS, CRON
+    - SQL Tuning을 통해 처리시간을 단축하는 업무를 담당하였습니다.  
+
+    - 기술 요소 : Oracle Database, PL/SQL, SunOS, Cron(Scheduling)
 
   - MOZART Framework를 활용한 일 생산 계획 수립 비즈니스 로직 구현
 
     - 30개 이상의 DB 테이블를 In-Memory로 로딩하여, 반도체 생산계획을 수립하기 위한 S/W 설계, 자료구조, 알고리즘을 개발하는 업무를 수행하였습니다.
+
+    - Order에 따른 반도체 공정별 일 생산 목표(Target)를 생성하는(Backward Pegging) 로직 구현업무를 담당하였습니다.
+
+    - Order 납기 준수를 위한, 설비에 공정 별 생산 계획을 예측하는(Forward Planning) 로직을 구현하는 업무를 담당하였습니다.
 
     - 기술 요소 : C#, .NET Framework 4.6, [MOZART Framework](http://www.vmsmozart.com/index.php?mc=a&md=04&t=)
 
@@ -61,13 +67,15 @@ layout: default
     
   - 반도체 생산 계획 보정 및 기준정보 등록/수정/삭제용 UI 유지보수
 
-    - Front영역과 Backend영역간 해당하는 사용자 인증, 시큐어 코딩, 데이터 조회 및 처리 업무를 수행하며 Web서비스 운영에 대한 이해도를 높였습니다.
+    - Xplatform 기반으로 동작하는 WEB서버를 운용하며 Web Browser UI 구성, Popup 이벤트 처리, Backend 서버와 통신하는 로직을 분석하는 업무를 수행하였습니다.
 
-    - 기술 요소 : Java 6, Spring, Jetty, WebLogic, Oracle Http Server, XPlatform 
+    - Spring기반으로 구축된 WAS 서버의 역할에 해당하는 SSO 인증, 시큐어 코딩, DB CRUD 처리를 수행하는 기능을 유지보수하는 업무를 수행하였습니다.
+
+    - 기술 요소 : Javascript, JSP, Java 6, Spring, Jetty, WebLogic, Oracle Http Server, XPlatform 
 
   - JDBC API를 이용한 DB to DB 간 데이터 전송 프로그램 운용
 
-    - Java프로그램으로 구현된 Database 간의 데이터를 송수신하는 프로그램을 운영하였습니다.
+    - Batch단위로 Database 간의 데이터를 송수신하는 프로그램을 운영하였습니다.
 
     - 기술 요소 : Java 6, OJDBC jar, SunOS
 
@@ -75,7 +83,7 @@ layout: default
 
     - Test-Driven-Development 개발문화를 도입하고, Clean Code 작성에 도움이 되는 지식을 전파하는 활동을 하였습니다.
 
-    - 및 코드 품질에 해당하는 Cyclomatic Complexity, LinesOfCode, CouplingBetweenObjects, Modular Circular Dependency, Duplicate Codes 지표 점수를 높이기 위해 코드 리팩토링 업무를 진행하였습니다.
+    - 코드 품질에 해당하는 Cyclomatic Complexity, LinesOfCode, CouplingBetweenObjects, Modular Circular Dependency, Duplicate Codes를 없애기 위한 리팩토링 업무를 진행하였습니다.
 
     - 기술 요소 : C# - MStest,Moq / Java - JUnit, Mockito, spring-test
 
