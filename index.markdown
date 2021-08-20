@@ -44,25 +44,26 @@ layout: default
 - 주요 역할
 
   - SQL Join을 이용한 데이터 전처리 및 가공 및 SQL Tuning 수행
-  
+    
+    - 업무 내용 : 100개 이상의 테이블을 관리하고, 100만건 이상의 데이터를 보유한 테이블로부터 SQL Join을 통해 데이터를 가공하는 로직을 구현하고, SQL Tuning을 통해 처리시간을 단축하는 업무를 담당하였습니다.
     - 기술 요소 : Oracle Database, PL/SQL, SunOS, CRON
 
   - MOZART Framework를 활용한 일 생산 계획 수립 비즈니스 로직 구현
-    
+    - 업무 내용 :  이상의 DB 테이블를 In-Memory로 로딩하여, 반도체 생산계획을 수립하기 위한 복잡한 비즈니스 로직을 구현하는 업무를 담당하였습니다. 해당 업무를 수행하며 대용량 데이터를 처리하는 프로그램을 설계, 디버깅, 자료구조, 알고리즘을 개발하는 업무를 수행하였습니다.
     - 기술 요소 : C#, .NET Framework 4.6, [MOZART Framework](http://www.vmsmozart.com/index.php?mc=a&md=04&t=)
 
     ![mozart](/assets/img/Mozart.png)
 	
   - 반도체 생산 계획 보정 및 기준정보 등록/수정/삭제 용 UI 유지보수
-    
+    - 업무 내용 : Front영역과 Backend영역간 해당하는 사용자 인증, 시큐어 코딩, 데이터 조회 및 처리 업무를 수행하며 Web서비스 운영에 대한 이해도를 높였습니다.
     - 기술 요소 : Java 6, Spring, Jetty, WebLogic, Oracle Http Server, XPlatform 
 
   - JDBC API를 이용한 DB to DB 간 데이터 전송 프로그램 운용
-    
+    - 업무 내용 : Java프로그램으로 구현된 Database 간의 데이터를 송수신하는 프로그램을 운영하였습니다.
     - 기술 요소 : Java 6, OJDBC jar, SunOS
   
   - 레거시 프로젝트 TDD 개발환경 구축 및 리팩토링 업무 수행
-    
+    - 업무 내용 : TDD 도입 및 코드 품질에 해당하는 Cyclomatic Complexity, LinesOfCode, CouplingBetweenObjects, Modular Circular Dependency, Duplicate Codes 지표 점수를 높이기 위해 코드를 리팩토링 하는 업무를 진행하였습니다.
     - 기술 요소 : C# - MStest,Moq / Java - JUnit, Mockito, spring-test
 
 
@@ -86,8 +87,7 @@ layout: default
 
   - Native 메모리 누수 검출 모듈 개발
     
-    - malloc, calloc, free, memalign, new, delete 등 C/C++에서 사용하는 동적메모리 할당 키워드가 사용될 때, 호출되는 함수를 Hooking하여 메모리 누수를 감지하는 로직을 구현함
-      
+    - 업무 내용 : malloc, calloc, free, memalign, new, delete 등 C/C++에서 사용하는 동적메모리 할당 키워드가 사용될 때, 호출되는 함수를 Hooking하여 메모리 누수를 감지하는 로직을 구현하였습니다.      
     - 기술 요소 : C++, Linux OS, Android Platform Development Kit, [Malloc Debug](https://android.googlesource.com/platform/bionic/+/master/libc/malloc_debug/README.md), IPC Communication (UDS Socket)
 	
   - 메모리 누수 로그 수집용 App 개발
@@ -108,16 +108,13 @@ layout: default
 
   - 인포테인먼트 화면 캡쳐 모듈 개발
   
-    - ADB jar를 이용하여 안드로이드 화면 캡쳐 및 이미지 파일로 추출하는 모듈 개발
-    
-    - Android Platform 빌드때 사용하는 라이브러리를 이용하여 화면을 캡쳐하는 Native용 프로그램 개발
+    - 업무 내용 : ADB jar를 이용하여 안드로이드 화면 캡쳐 및 이미지 파일로 추출하는 모듈을 개발하고, Android OS 화면을 캡쳐하기 위한 Agent 프로그램도 구현하였습니다.
 
     - 기술 요소 : C++, Java, Android PDK (Kitkat 4.4.2), [Android Debug Bridge](https://developer.android.com/studio/command-line/adb)
         
-
   - Deep Learning 모델 학습 환경 구축
 
-    - Tensorflow Object Detection API를 활용하여, 딥러닝 모델 학습 및 Image Labeling Tool을 이용하여 인포테이먼트 장비 이미지 Dataset 생성
+    - 업무 내용 : Tensorflow Object Detection API를 활용하여, 딥러닝 모델 학습 및 Image Labeling Tool을 이용하여 인포테이먼트 장비 이미지 Dataset을 생성하는 업무를 진행하였습니다.
 
     - 기술 요소 : Python, [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
@@ -135,18 +132,10 @@ layout: default
 - 개요 : SURF 알고리즘 성능 최적화를 위한 연구
 
 - 주요 역할
-   
-   - SURF(=Speeded-Up Robust Features) 알고리즘을 C++로 구현된 OpenSURF 소스 프로젝트를 활용하여, 알고리즘의 병목현상을 분석하여 중복 연산 제거, 메모리 재사용율 개선을 통해 알고리즘 성능을 개선함.
+  - 업무 내용 : 영상인식 알고리즘의 병목현상을 분석하여 중복 연산 제거, 메모리 사용율을 개선하였으며, SCI, SCIE 논문을 게재하였습니다.
+    - 업무 내용 : SURF의 단계인 Integral Image, Hessian-Matrix 기반 Interest Point 검출, Descriptor 생성 부에 대한 알고리즘을 이해하고, C++로 작성된 SURF알고리즘의 소스코드를 바탕으로 알고리즘 개선업무를 진행하였습니다.
      
-     - 기술 요소 : C++, OpenCV, OpenSURF
-
-- 성과
-
-   - 기존 알고리즘 계산시간 대비 30% 시간을 절감
-	
-   - 기존 알고리즘 대비 메모리 사용율 35% 절감
-	
-   - SCI, SCIE 논문 게재
+    - 기술 요소 : C++, OpenCV, OpenSURF
 	
 	![SCI_Paper](/assets/img/SCI_Paper.png)
 	<br><br><br><br>
