@@ -47,24 +47,20 @@ layout: default
   
     - 기술 요소 : Oracle Database, PL/SQL, SunOS, CRON
 
-<br>
   - MOZART Framework를 활용한 일 생산 계획 수립 비즈니스 로직 구현
     
     - 기술 요소 : C#, .NET Framework 4.6, [MOZART Framework](http://www.vmsmozart.com/index.php?mc=a&md=04&t=)
 
-<br>
     ![mozart](/assets/img/Mozart.png)
 	
   - 반도체 생산 계획 보정 및 기준정보 등록/수정/삭제 용 UI 유지보수
     
     - 기술 요소 : Java 6, Spring, Jetty, WebLogic, Oracle Http Server, XPlatform 
 
-<br>
   - JDBC API를 이용한 DB to DB 간 데이터 전송 프로그램 운용
     
     - 기술 요소 : Java 6, OJDBC jar, SunOS
   
-<br>  
   - 레거시 프로젝트 TDD 개발환경 구축 및 리팩토링 업무 수행
     
     - 기술 요소 : C# - MStest,Moq / Java - JUnit, Mockito, spring-test
@@ -94,13 +90,12 @@ layout: default
       
     - 기술 요소 : C++, Linux OS, Android Platform Development Kit, [Malloc Debug](https://android.googlesource.com/platform/bionic/+/master/libc/malloc_debug/README.md), IPC Communication (UDS Socket)
 	
-<br>
   - 메모리 누수 로그 수집용 App 개발
     
     - Android에서 실행되는 여러개의 Native Process로부터 전송하는 메모리 할당/해제 사용 로그를 수집하고 파일 형태로 기록하는 로직을 Thread, Queue, 임계영역, IPC를 이용하여 로그를 수집하는 기능 구현
   
     - 기술 요소 : Java, C/C++, Android NDK, Android SDK (Kitkat 4.4.2),  Android Component
-<br>
+
     ![MemoryLeak](/assets/img/MemoryLeak.png)
 
 <br><br>
@@ -119,13 +114,13 @@ layout: default
 
     - 기술 요소 : C++, Java, Android PDK (Kitkat 4.4.2), [Android Debug Bridge](https://developer.android.com/studio/command-line/adb)
         
-<br>
+
   - Deep Learning 모델 학습 환경 구축
 
     - Tensorflow Object Detection API를 활용하여, 딥러닝 모델 학습 및 Image Labeling Tool을 이용하여 인포테이먼트 장비 이미지 Dataset 생성
 
     - 기술 요소 : Python, [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
-<br>
+
     ![DeepLearning2](/assets/img/DeepLearning2.png)
     <br><br>
     ![DeepLearning3](/assets/img/DeepLearning3.png)
@@ -145,7 +140,6 @@ layout: default
      
      - 기술 요소 : C++, OpenCV, OpenSURF
 
-<br>
 - 성과
 
    - 기존 알고리즘 계산시간 대비 30% 시간을 절감
@@ -170,19 +164,16 @@ layout: default
 
      - 기술 요소 : C++, CMake, [PX4](https://github.com/PX4/PX4-Autopilot), [MAVLink(Data Protocol)](https://github.com/mavlink/mavlink), uORB (IPC용 Message 전송 API)
 
-<br>
   - 카메라 영상을 활용한 드론 객체 추적 비행 알고리즘 구현
 
      - 기술 요소 : C++, OpenCV, Linux, PID Controller(제어 알고리즘), [SURF](https://github.com/stephen-mi11er/opensurf)(영상 인식), [Location Matching](https://m.earticle.net/Article/A158894)(객체 추적)
   
-<br>  
    - 오픈소스를 활용한 영상기반 객체추적 비행 시뮬레이션 비행 환경 구축
      
      - PIXHAWK 보드 전용 비행 시뮬레이터에서 제공하는 화면을 캡쳐하여, 해당 이미지 상에서 객체 인식 및 비행제어 명령을 전송하여 가상의 환경에서 비행 결과를 확인할 수 있는 테스트 베드를 구축함.
   
      - 기술 요소 : C++, Java, Java 3D, OpenCV, Linux, QT(GUI), [MAVLink](https://github.com/mavlink/mavlink), [JMAVSim](https://github.com/PX4/jMAVSim)
-     
-<br>     
+
 	![simulation-env](/assets/img/SimulationEnv.png)
 	<br><br>
 	![simulator-diagram](/assets/img/SimulatorDiagram.png)
@@ -229,8 +220,7 @@ layout: default
     - IP Camera로부터 전송받은 MJPEG 이미지를 Android 화면으로 실시간 출력해주는 View기능 구현
       
     - 기술 요소 : Java, Android 2.3, Http API, SQLite, MJPEG, Fragment
-	
-<br>	
+
   - Server 개발
     
     - 서버로부터 전송받은 데이터를 Android 내장된 SQLite를 활용하여 Database에 저장하는 기능 구현
@@ -274,9 +264,8 @@ layout: default
     
     - OpenGL을 이용하여 구현한 안테나 모형을 직교좌표계에 해당하는 GPS데이터를 극좌표로 변환하여 안테나의 지향방향을 시각화 함.
 
-    - 기술 요소 : C Language, OpenGL, X-PLANE
-  
-<br>  
+    - 기술 요소 : C Language, OpenGL, X-PLANE 
+
   - X-PLANE 비행시뮬레이터와 연동
   
     ![antena](/assets/img/Antena.png)
