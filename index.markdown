@@ -68,7 +68,7 @@ layout: default
     
   - 반도체 생산 계획 보정 및 기준정보 등록/수정/삭제용 UI 유지보수
 
-    - Xplatform 기반으로 동작하는 WEB서버를 운용하며 Web Browser UI 구성, Popup 이벤트 처리, Backend 서버와 통신하는 로직을 분석하는 업무를 수행하였습니다.
+    - 3-tier 아키텍처로 구성된 WEB/WAS/DB 서버를 운용하였습니다. 
 
     - Spring기반으로 구축된 WAS 서버의 역할에 해당하는 SSO 인증, 시큐어 코딩, DB CRUD 처리를 수행하는 기능을 유지보수하는 업무를 수행하였습니다.
 
