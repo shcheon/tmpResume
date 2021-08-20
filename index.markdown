@@ -39,30 +39,30 @@ layout: default
 
 ### **반도체 Backend 공정 Factory Planning Backend서버 운영**
 
-- 개요 : Week 단위의 반도체 생산 계획을 Day 단위로 설비의 Capacity를 고려하여 생산계획을 생성하는 Backend 서버를 운영함
+- 개요 : Week 단위의 반도체 생산 계획을 Day 단위로 설비의 Capacity를 고려하여 생산계획을 생성하는 Backend 서버를 운영하였습니다.
 
 - 주요 역할
 
-  - SQL Join을 이용한 데이터 전처리 및 가공 및 SQL Tuning 수행
+  1. SQL Join을 이용한 데이터 전처리 및 가공 및 SQL Tuning 수행
     
     - 업무 내용 : 100개 이상의 테이블을 관리하고, 100만건 이상의 데이터를 보유한 테이블로부터 SQL Join을 통해 데이터를 가공하는 로직을 구현하고, SQL Tuning을 통해 처리시간을 단축하는 업무를 담당하였습니다.
     - 기술 요소 : Oracle Database, PL/SQL, SunOS, CRON
 
-  - MOZART Framework를 활용한 일 생산 계획 수립 비즈니스 로직 구현
+  2. MOZART Framework를 활용한 일 생산 계획 수립 비즈니스 로직 구현
     - 업무 내용 :  이상의 DB 테이블를 In-Memory로 로딩하여, 반도체 생산계획을 수립하기 위한 복잡한 비즈니스 로직을 구현하는 업무를 담당하였습니다. 해당 업무를 수행하며 대용량 데이터를 처리하는 프로그램을 설계, 디버깅, 자료구조, 알고리즘을 개발하는 업무를 수행하였습니다.
     - 기술 요소 : C#, .NET Framework 4.6, [MOZART Framework](http://www.vmsmozart.com/index.php?mc=a&md=04&t=)
 
     ![mozart](/assets/img/Mozart.png)
 	
-  - 반도체 생산 계획 보정 및 기준정보 등록/수정/삭제 용 UI 유지보수
+  3. 반도체 생산 계획 보정 및 기준정보 등록/수정/삭제용 UI 유지보수
     - 업무 내용 : Front영역과 Backend영역간 해당하는 사용자 인증, 시큐어 코딩, 데이터 조회 및 처리 업무를 수행하며 Web서비스 운영에 대한 이해도를 높였습니다.
     - 기술 요소 : Java 6, Spring, Jetty, WebLogic, Oracle Http Server, XPlatform 
 
-  - JDBC API를 이용한 DB to DB 간 데이터 전송 프로그램 운용
+  4. JDBC API를 이용한 DB to DB 간 데이터 전송 프로그램 운용
     - 업무 내용 : Java프로그램으로 구현된 Database 간의 데이터를 송수신하는 프로그램을 운영하였습니다.
     - 기술 요소 : Java 6, OJDBC jar, SunOS
   
-  - 레거시 프로젝트 TDD 개발환경 구축 및 리팩토링 업무 수행
+  5. 레거시 프로젝트 TDD 개발환경 구축 및 리팩토링 업무 수행
     - 업무 내용 : TDD 도입 및 코드 품질에 해당하는 Cyclomatic Complexity, LinesOfCode, CouplingBetweenObjects, Modular Circular Dependency, Duplicate Codes 지표 점수를 높이기 위해 코드를 리팩토링 하는 업무를 진행하였습니다.
     - 기술 요소 : C# - MStest,Moq / Java - JUnit, Mockito, spring-test
 
@@ -85,12 +85,12 @@ layout: default
 
 - 주요 역할
 
-  - Native 메모리 누수 검출 모듈 개발
+  1. Native 메모리 누수 검출 모듈 개발
     
     - 업무 내용 : malloc, calloc, free, memalign, new, delete 등 C/C++에서 사용하는 동적메모리 할당 키워드가 사용될 때, 호출되는 함수를 Hooking하여 메모리 누수를 감지하는 로직을 구현하였습니다.      
     - 기술 요소 : C++, Linux OS, Android Platform Development Kit, [Malloc Debug](https://android.googlesource.com/platform/bionic/+/master/libc/malloc_debug/README.md), IPC Communication (UDS Socket)
 	
-  - 메모리 누수 로그 수집용 App 개발
+  2. 메모리 누수 로그 수집용 App 개발
     
     - Android에서 실행되는 여러개의 Native Process로부터 전송하는 메모리 할당/해제 사용 로그를 수집하고 파일 형태로 기록하는 로직을 Thread, Queue, 임계영역, IPC를 이용하여 로그를 수집하는 기능 구현
   
@@ -106,13 +106,13 @@ layout: default
 
 - 주요 역할
 
-  - 인포테인먼트 화면 캡쳐 모듈 개발
+  1. 인포테인먼트 화면 캡쳐 모듈 개발
   
     - 업무 내용 : ADB jar를 이용하여 안드로이드 화면 캡쳐 및 이미지 파일로 추출하는 모듈을 개발하고, Android OS 화면을 캡쳐하기 위한 Agent 프로그램도 구현하였습니다.
 
     - 기술 요소 : C++, Java, Android PDK (Kitkat 4.4.2), [Android Debug Bridge](https://developer.android.com/studio/command-line/adb)
         
-  - Deep Learning 모델 학습 환경 구축
+  2. Deep Learning 모델 학습 환경 구축
 
     - 업무 내용 : Tensorflow Object Detection API를 활용하여, 딥러닝 모델 학습 및 Image Labeling Tool을 이용하여 인포테이먼트 장비 이미지 Dataset을 생성하는 업무를 진행하였습니다.
 
@@ -132,11 +132,9 @@ layout: default
 - 개요 : SURF 알고리즘 성능 최적화를 위한 연구
 
 - 주요 역할
-  - 업무 내용 : 영상인식 알고리즘의 병목현상을 분석하여 중복 연산 제거, 메모리 사용율을 개선하였으며, SCI, SCIE 논문을 게재하였습니다.
-    - 업무 내용 : SURF의 단계인 Integral Image, Hessian-Matrix 기반 Interest Point 검출, Descriptor 생성 부에 대한 알고리즘을 이해하고, C++로 작성된 SURF알고리즘의 소스코드를 바탕으로 알고리즘 개선업무를 진행하였습니다.
-     
+  1. 영상 인식 알고리즘 개선
+    - 업무 내용 : SURF 알고리즘에 포함된 Integral Image, Hessian-Matrix 기반 Interest Point 검출, Descriptor 생성 알고리즘에 대해 이해하고, C++로 작성된 SURF알고리즘의 소스코드를 바탕으로 알고리즘 개선업무를 진행하였습니다.
     - 기술 요소 : C++, OpenCV, OpenSURF
-	
 	![SCI_Paper](/assets/img/SCI_Paper.png)
 	<br><br><br><br>
 	![SCIE_Paper](/assets/img/SCIE_Paper.png)
@@ -149,18 +147,17 @@ layout: default
 
 - 주요 역할
 
-  - 비행 제어용 Board인 PIXHAWK H/W에 탑재되는 RTOS 및 내부 S/W 아키텍쳐 분석
-
+  1. 비행 제어용 Board인 PIXHAWK H/W에 탑재되는 RTOS 및 내부 S/W 아키텍쳐 분석
+     - 업무 내용 : 
      - 기술 요소 : C++, CMake, [PX4](https://github.com/PX4/PX4-Autopilot), [MAVLink(Data Protocol)](https://github.com/mavlink/mavlink), uORB (IPC용 Message 전송 API)
 
-  - 카메라 영상을 활용한 드론 객체 추적 비행 알고리즘 구현
-
+  2. 영상기반 드론 객체 추적 비행 알고리즘 구현
+     - 업무 내용 : 
      - 기술 요소 : C++, OpenCV, Linux, PID Controller(제어 알고리즘), [SURF](https://github.com/stephen-mi11er/opensurf)(영상 인식), [Location Matching](https://m.earticle.net/Article/A158894)(객체 추적)
   
-   - 오픈소스를 활용한 영상기반 객체추적 비행 시뮬레이션 비행 환경 구축
-     
+  3. 오픈소스를 활용한 영상기반 객체추적 비행 시뮬레이션 비행 환경 구축
+     - 업무 내용 :    
      - PIXHAWK 보드 전용 비행 시뮬레이터에서 제공하는 화면을 캡쳐하여, 해당 이미지 상에서 객체 인식 및 비행제어 명령을 전송하여 가상의 환경에서 비행 결과를 확인할 수 있는 테스트 베드를 구축함.
-  
      - 기술 요소 : C++, Java, Java 3D, OpenCV, Linux, QT(GUI), [MAVLink](https://github.com/mavlink/mavlink), [JMAVSim](https://github.com/PX4/jMAVSim)
 
 	![simulation-env](/assets/img/SimulationEnv.png)
