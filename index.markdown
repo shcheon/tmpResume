@@ -48,13 +48,13 @@ layout: default
     - 기술 요소 : Oracle Database, PL/SQL, SunOS, CRON
 
   - MOZART Framework를 활용한 일 생산 계획 수립 비즈니스 로직 구현
-  
+    
     - 기술 요소 : C#, .NET Framework 4.6, [MOZART Framework](http://www.vmsmozart.com/index.php?mc=a&md=04&t=)
 
     ![mozart](/assets/img/Mozart.png)
 	
   - 반도체 생산 계획 보정 및 기준정보 등록/수정/삭제 용 UI 유지보수
-  
+    
     - 기술 요소 : Java 6, Spring, Jetty, WebLogic, Oracle Http Server, XPlatform 
 
   - JDBC API를 이용한 DB to DB 간 데이터 전송 프로그램 운용
