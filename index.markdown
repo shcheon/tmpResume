@@ -142,31 +142,52 @@ layout: default
 # **대학교(2008.3 ~ 2015.2)**
 
 ## **안드로이드 테트리스 게임 앱 개발**
+
 - 개요 : Java의 OOP 개념 및 Android App 개발 개념을 확립하기 위해 진행한 학부 개인 과제 
+
 - 개발기간 : '13.05.01 ~ '13.06.30 (3개월)
+
 - 주요역할 
-    - Android용 테트리스 게임 개발
-      - 추상화, 상속, 인터페이스, 캡슐화, 다형성 개념을 활용하여 S/W를 설계 및 구현하고, Android Component와 GDI를 활용하여 Graphic UI 구현하였습니다.
-      - 기술 요소 : Java, Android 3.0.1, Android GDI
+
+  - Android용 테트리스 게임 개발
+
+    - 추상화, 상속, 인터페이스, 캡슐화, 다형성 개념을 활용하여 S/W를 설계 및 구현하고, Android Component와 GDI를 활용하여 Graphic UI 구현하였습니다.
+
+    - 기술 요소 : Java, Android 3.0.1, Android GDI
+
 	![image-20210808210941608](/assets/img/image-20210808210941608.png)
 <br><br>
 
 ## **안드로이드 어린이 집 종합관리용 서비스 개발**
+
 - 개요 : 아동 폭행 사건 예방 및 어린이 집 관리자와 학부모와 소통하기 편리한 서비스를 구축하기 위해 진행한 프로젝트
+
 - 개발기간 : '12.08.01 ~ '12.12.01 (4개월)
+
 - 주요 역할
+
   - Android App 개발
+
     - 부드러운 화면전환을 위해 Fragment Library를 이용하여 Android UI를 구현하였습니다.
+
     - 어린이집 공지사항, 출석체크 등의 정보를 SQLite를 활용하여 모바일 Database에 저장하는 기능을 구현하였습니다.
+
     - IP Camera로부터 전송받은 MJPEG 이미지를 Android 화면으로 실시간 출력해주는 Viewer를 구현하였습니다. 
+
     - 서버의 Update 버전 점검 로직을 통해, 서버 DB data 동기화 또는 image Resourece파일을 다운받는 로직을 구현하였습니다.
+
     - 기술 요소 : Java, Android 2.3, Http API, SQLite, MJPEG, Fragment
+
   - Server 개발
+
     - Apache Tomcat 서버를 이용하여 데이터 CRUD를 수행하는 웹 서버를 구축하였습니다.
+
     - 어린이가 등하원 할 때, Http와 GCM API를 이용하여 Push 알람 메시지를 전송해주는 기능을 구현하였습니다.
+
     - 기술 요소 : PHP, MySQL, Apache Tomcat, GCM(=Google Cloud Message) API   
 
 	![image-20210808193038964](/assets/img/image-20210808193038964.png) ![image-20210808193055479](/assets/img/image-20210808193055479.png)
+
 <br><br>
 
 ## **다중 통신을 수행하는 캔위성 제작**
