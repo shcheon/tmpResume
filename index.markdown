@@ -52,13 +52,15 @@ layout: default
 
     - 기술 요소 : Oracle Database, PL/SQL, SunOS, Cron(Scheduling)
 
-  - MOZART Framework를 활용한 일 생산 계획 수립 비즈니스 로직 구현
+  - MOZART Framework를 활용한 일 생산 계획 생성 시뮬레이션 S/W 개발
 
     - 30개 이상의 DB 테이블를 In-Memory로 로딩하여, 반도체 생산계획을 수립하기 위한 S/W 설계, 자료구조, 알고리즘을 개발하는 업무를 수행하였습니다.
 
     - Order에 따른 반도체 공정별 일 생산 목표(Target)를 생성하는(Backward Pegging) 로직 구현업무를 담당하였습니다.
 
     - Order 납기 준수를 위한, 설비에 공정 별 생산 계획을 예측하는(Forward Planning) 로직을 구현하는 업무를 담당하였습니다.
+
+    - Powershell을 이용한 로그파일 삭제 스크립트를 구현하고 IIS서버의 스케쥴러에 등록하여 로그파일을 관리하는 업무도 담당하였습니다.
 
     - 기술 요소 : C#, .NET Framework 4.6, [MOZART Framework](http://www.vmsmozart.com/index.php?mc=a&md=04&t=)
 
