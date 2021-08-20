@@ -46,10 +46,10 @@ layout: default
   - SQL Join을 이용한 데이터 전처리 및 가공 및 SQL Tuning 수행
   
     - 기술 요소 : Oracle Database, PL/SQL, SunOS, CRON
-	
+
   - MOZART Framework를 활용한 일 생산 계획 수립 비즈니스 로직 구현
   
-    - 개발 언어 : C#
+     - 개발 언어 : C#
 	
     - 개발 환경 : .NET Framework 4.6
 	
@@ -74,6 +74,8 @@ layout: default
   - 레거시 프로젝트 TDD 개발환경 구축 및 리팩토링 업무 수행
     
     - 기술 요소 : C# - MStest,Moq / Java - JUnit, Mockito, spring-test
+
+<br><br>
 
 ## **슈어소프트테크**
 
