@@ -43,22 +43,21 @@ layout: default
 
 - 주요 역할
   - SQL Join을 이용한 데이터 전처리 및 가공 및 SQL Tuning 수행
-    - 업무 내용 : 100개 이상의 테이블을 관리하고, 100만건 이상의 데이터를 보유한 테이블로부터 SQL Join을 통해 데이터를 가공하는 로직을 구현하고, SQL Tuning을 통해 처리시간을 단축하는 업무를 담당하였습니다.
+    - 100개 이상의 테이블 관리 및 100만건 이상의 데이터를 SQL Join을 통해 데이터를 가공하는 로직을 구현하고, SQL Tuning을 통해 처리시간을 단축하는 업무를 담당하였습니다.
     - 기술 요소 : Oracle Database, PL/SQL, SunOS, CRON
   - MOZART Framework를 활용한 일 생산 계획 수립 비즈니스 로직 구현
-    - 업무 내용 : 30개 이상의 DB 테이블를 In-Memory로 로딩하여, 반도체 생산계획을 수립하기 위한 복잡한 비즈니스 로직을 구현하는 업무를 담당하였습니다. 해당 업무를 수행하며 대용량 데이터를 처리하는 프로그램을 설계, 디버깅, 자료구조, 알고리즘을 개발하는 업무를 수행하였습니다.
+    - 30개 이상의 DB 테이블를 In-Memory로 로딩하여, 반도체 생산계획을 수립하기 위한 S/W 설계, 자료구조, 알고리즘을 개발하는 업무를 수행하였습니다.
     - 기술 요소 : C#, .NET Framework 4.6, [MOZART Framework](http://www.vmsmozart.com/index.php?mc=a&md=04&t=)
-
     ![mozart](/assets/img/Mozart.png)
-	
   - 반도체 생산 계획 보정 및 기준정보 등록/수정/삭제용 UI 유지보수
-    - 업무 내용 : Front영역과 Backend영역간 해당하는 사용자 인증, 시큐어 코딩, 데이터 조회 및 처리 업무를 수행하며 Web서비스 운영에 대한 이해도를 높였습니다.
+    - Front영역과 Backend영역간 해당하는 사용자 인증, 시큐어 코딩, 데이터 조회 및 처리 업무를 수행하며 Web서비스 운영에 대한 이해도를 높였습니다.
     - 기술 요소 : Java 6, Spring, Jetty, WebLogic, Oracle Http Server, XPlatform 
   - JDBC API를 이용한 DB to DB 간 데이터 전송 프로그램 운용
-    - 업무 내용 : Java프로그램으로 구현된 Database 간의 데이터를 송수신하는 프로그램을 운영하였습니다.
+    - Java프로그램으로 구현된 Database 간의 데이터를 송수신하는 프로그램을 운영하였습니다.
     - 기술 요소 : Java 6, OJDBC jar, SunOS
   - 레거시 프로젝트 TDD 개발환경 구축 및 리팩토링 업무 수행
-    - 업무 내용 : TDD 도입 및 코드 품질에 해당하는 Cyclomatic Complexity, LinesOfCode, CouplingBetweenObjects, Modular Circular Dependency, Duplicate Codes 지표 점수를 높이기 위해 코드를 리팩토링 하는 업무를 진행하였습니다.
+    - Test-Driven-Development 개발문화를 도입하고, Clean Code 작성에 도움이 되는 지식을 전파하는 활동을 하였습니다.
+    - 및 코드 품질에 해당하는 Cyclomatic Complexity, LinesOfCode, CouplingBetweenObjects, Modular Circular Dependency, Duplicate Codes 지표 점수를 높이기 위해 코드 리팩토링 업무를 진행하였습니다.
     - 기술 요소 : C# - MStest,Moq / Java - JUnit, Mockito, spring-test
 
 
@@ -67,21 +66,16 @@ layout: default
 ## **슈어소프트테크**
 
 - 재직기간 : 1년 ('17.07 ~ '18.07)
-
 - 수행업무
-
   - [PROV for Android 솔루션 개발](https://www.suresofttech.com/ko/html/tool/secure_prov.php)  
-  
   - [VISTA 솔루션 개발](https://www.suresofttech.com/ko/html/tool/inter_vista.php)
 
 ### **PROV for Android 솔루션 개발**
 
 - 개요 : 안드로이드 기반 인포테인먼트 시스템에서 발생하는 메모리 누수를 검출하는 모듈 개발
-
 - 주요 역할
-
   - Native 메모리 누수 검출 모듈 개발 
-    - 업무 내용 : malloc, calloc, free, memalign, new, delete 등 C/C++에서 사용하는 동적메모리 할당 키워드가 사용될 때, 호출되는 함수를 Hooking하여 메모리 누수를 감지하는 로직을 구현하였습니다.      
+    - malloc, calloc, free, memalign, new, delete 등 C/C++에서 동적 메모리 할당 키워드가 사용될 때, 이를 Hooking하여 메모리 누수를 감지하는 Agent 모듈을 구현하였습니다.      
     - 기술 요소 : C++, Linux OS, Android Platform Development Kit, [Malloc Debug](https://android.googlesource.com/platform/bionic/+/master/libc/malloc_debug/README.md), IPC Communication (UDS Socket)
 	
   - 메모리 누수 로그 수집용 App 개발 
@@ -97,10 +91,10 @@ layout: default
 - 개요 : 차량용 인포테인먼트 시스템 UI 테스트 자동화 도구 개발
 - 주요 역할
   - 인포테인먼트 화면 캡쳐 모듈 개발  
-    - 업무 내용 : ADB jar를 이용하여 안드로이드 화면 캡쳐 및 이미지 파일로 추출하는 모듈을 개발하고, Android OS 화면을 캡쳐하기 위한 Agent 프로그램도 구현하였습니다.
+    - ScreenCapture가 지원되지 않는 안드로이드 기반 인포테인먼트 장비에서 화면을 캡쳐하는 Agent 프로그램을 구현하였습니다.
     - 기술 요소 : C++, Java, Android PDK (Kitkat 4.4.2), [Android Debug Bridge](https://developer.android.com/studio/command-line/adb)        
   - Deep Learning 모델 학습 환경 구축
-    - 업무 내용 : Tensorflow Object Detection API를 활용하여, 딥러닝 모델 학습 및 Image Labeling Tool을 이용하여 인포테이먼트 장비 이미지 Dataset을 생성하는 업무를 진행하였습니다.
+    - Tensorflow Object Detection API를 활용하여, 딥러닝 모델 학습 및 Image Labeling Tool을 이용하여 인포테이먼트 장비 이미지 Dataset을 생성하는 업무를 진행하였습니다.
     - 기술 요소 : Python, [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
     ![DeepLearning2](/assets/img/DeepLearning2.png)
     <br><br>
@@ -110,10 +104,10 @@ layout: default
 # **대학원(2015.3 ~ 2017.2)**
 
 ## **객체 검출 및 인식 알고리즘(SURF) 성능 개선 연구**
-- 개요 : SURF 알고리즘 성능 최적화를 위한 연구
+- 개요 : SURF 알고리즘 연산시간 최적화를 위한 연구
 - 주요 역할
   - 영상 인식 알고리즘 개선
-    - 업무 내용 : SURF 알고리즘에 포함된 Integral Image, Hessian-Matrix 기반 Interest Point 검출, Descriptor 생성 알고리즘에 대해 이해하고, C++로 작성된 SURF알고리즘 소스코드로 개선업무를 진행하였습니다.
+    - SURF 알고리즘에 포함된 Integral Image, Hessian-Matrix 기반 Interest Point 검출 및 Descriptor 생성 알고리즘을 이해한 후, 알고리즘 병목현상을 개선하는 연구를 진행하였습니다.
     - 기술 요소 : C++, OpenCV, OpenSURF
 	![SCI_Paper](/assets/img/SCI_Paper.png)
 	<br><br><br><br>
@@ -147,8 +141,9 @@ layout: default
 - 개요 : Java의 OOP 개념 및 Android App 개발 개념을 확립하기 위해 진행한 학부 개인 과제 
 - 개발기간 : '13.05.01 ~ '13.06.30 (3개월)
 - 주요역할 
-    - Tetris 게임 자료구조 설계 및 이벤트 처리 및 Graphic UI 구현
-       - 기술 요소 : Java, Android 3.0.1, Android GDI      
+    - Android용 테트리스 게임 개발
+      - 추상화, 상속, 인터페이스, 캡슐화, 다형성 개념을 활용하여 S/W를 설계 및 구현하고, Android Component와 GDI를 활용하여 Graphic UI 구현하였습니다.
+      - 기술 요소 : Java, Android 3.0.1, Android GDI
 	![image-20210808210941608](/assets/img/image-20210808210941608.png)
 <br><br>
 
@@ -157,13 +152,14 @@ layout: default
 - 개발기간 : '12.08.01 ~ '12.12.01 (4개월)
 - 주요 역할
   - Android App 개발
-    - 화면전환 Animation을 사용하지 않고자, Fragment UI로 구성.
-    - 서버로부터 전송받은 데이터를 Android 내장된 SQLite를 활용하여 Database에 저장하는 기능 구현
-    - IP Camera로부터 전송받은 MJPEG 이미지를 Android 화면으로 실시간 출력해주는 View기능 구현    
+    - 부드러운 화면전환을 위해 Fragment Library를 이용하여 Android UI를 구현하였습니다.
+    - 어린이집 공지사항, 출석체크 등의 정보를 SQLite를 활용하여 모바일 Database에 저장하는 기능을 구현하였습니다.
+    - IP Camera로부터 전송받은 MJPEG 이미지를 Android 화면으로 실시간 출력해주는 Viewer를 구현하였습니다. 
+    - 서버의 Update 버전 점검 로직을 통해, 서버 DB data 동기화 또는 image Resourece파일을 다운받는 로직을 구현하였습니다.
     - 기술 요소 : Java, Android 2.3, Http API, SQLite, MJPEG, Fragment
   - Server 개발
-    - 서버로부터 전송받은 데이터를 Android 내장된 SQLite를 활용하여 Database에 저장하는 기능 구현
-    - Google Cloud Message API를 이용하여 Android Push 메세지 전송 기능 구현, MySql Database로 데이터를 CRUD하는 기능 구현
+    - Apache Tomcat 서버를 이용하여 데이터 CRUD를 수행하는 웹 서버를 구축하였습니다.
+    - 어린이가 등하원 할 때, Http와 GCM API를 이용하여 Push 알람 메시지를 전송해주는 기능을 구현하였습니다.
     - 기술 요소 : PHP, MySQL, Apache Tomcat, GCM(=Google Cloud Message) API
 	![image-20210808193038964](/assets/img/image-20210808193038964.png) ![image-20210808193055479](/assets/img/image-20210808193055479.png)
 <br><br>
@@ -173,7 +169,7 @@ layout: default
 - 개발기간 : '12.06.01 ~ '12.08.30 (3개월)
 - 주요 역할
   - Firmware 개발    
-    - Piconet(1:N통신) 기능을 지원하는 Bluetooth 칩 구매 후 MCU register 프로그래밍을 통해 At Command를 전송하는 펌웨어 개발 
+    - Piconet(1:N통신) 기능을 지원하는 Bluetooth을 활용하여 MCU register 프로그래밍을 통해 멀티 통신 기능을 구현하였습니다. 
     - 기술 요소 : C Language, Bluetooth Piconet (1:N 통신 구현), LABVIEW
 	![image-cansat](/assets/img/cansat.png) 
 <br><br>
@@ -183,7 +179,11 @@ layout: default
 - 개발기간 : '14.06.01 ~ '14.08.30 (3개월)
 - 주요 역할
   - GPS 기반 지향 및 고도각 계산, Antena 동작 시각화 구현
-    - OpenGL을 이용하여 구현한 안테나 모형을 직교좌표계에 해당하는 GPS데이터를 극좌표로 변환하여 안테나의 지향방향을 시각화 함.
+    - GPS 데이터의 위,경도 값을 예측하는 선형 Kalman Filter를 구현하였습니다.
+    - GPS 위, 경도 데이터로 지향각과 고도각을 계산하는 식을 논문을 참조하여 구현하였습니다.
+    - OpenGL을 이용하여 안테나 모형을 시각화 하였습니다.
+    - 직교 좌표계에 해당하는 GPS데이터를 극좌표로 변환하는 식을 구현하였습니다.
+    - X-PLANE에서 전송해주는 데이터는 빅 엔디안 구조이므로, Union 자료구조를 이용하여 데이터를 리틀 엔디안구조로 변경하는 데이터 송수신부를 구현하였습니다.
     - 기술 요소 : C Language, OpenGL, X-PLANE 
   - X-PLANE 비행시뮬레이터와 연동
     ![antena](/assets/img/Antena.png)
