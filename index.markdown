@@ -170,12 +170,19 @@ layout: default
 <br><br>
 
 ## **다중 통신을 수행하는 캔위성 제작**
+
 - 개요 : 위성의 수행하는 임무 중 하나를 구현하기 위해 소형 캔위성을 제작하는 프로젝트
+
 - 개발기간 : '12.06.01 ~ '12.08.30 (3개월)
+
 - 주요 역할
-  - Firmware 개발    
+
+  - Firmware 개발
+
     - Piconet(1:N통신) 기능을 지원하는 Bluetooth을 활용하여 MCU register 프로그래밍을 통해 멀티 통신 기능을 구현하였습니다. 
+
     - 기술 요소 : C Language, Bluetooth Piconet (1:N 통신 구현), LABVIEW
+
 	![image-cansat](/assets/img/cansat.png) 
 <br><br>
 
@@ -186,7 +193,7 @@ layout: default
 
 - 주요 역할
 
-  - UAV 추적 안테나 시뮬레이터
+  - UAV 추적 안테나 시뮬레이터 구현
 
     - GPS 데이터의 위,경도 값을 예측하는 선형 Kalman Filter를 구현하였습니다.
 
