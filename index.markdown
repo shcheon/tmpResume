@@ -42,27 +42,22 @@ layout: default
 - 개요 : Week 단위의 반도체 생산 계획을 Day 단위로 설비의 Capacity를 고려하여 생산계획을 생성하는 Backend 서버를 운영하였습니다.
 
 - 주요 역할
-
-  1. SQL Join을 이용한 데이터 전처리 및 가공 및 SQL Tuning 수행
-    
+  - SQL Join을 이용한 데이터 전처리 및 가공 및 SQL Tuning 수행
     - 업무 내용 : 100개 이상의 테이블을 관리하고, 100만건 이상의 데이터를 보유한 테이블로부터 SQL Join을 통해 데이터를 가공하는 로직을 구현하고, SQL Tuning을 통해 처리시간을 단축하는 업무를 담당하였습니다.
     - 기술 요소 : Oracle Database, PL/SQL, SunOS, CRON
-
-  2. MOZART Framework를 활용한 일 생산 계획 수립 비즈니스 로직 구현
+  - MOZART Framework를 활용한 일 생산 계획 수립 비즈니스 로직 구현
     - 업무 내용 :  이상의 DB 테이블를 In-Memory로 로딩하여, 반도체 생산계획을 수립하기 위한 복잡한 비즈니스 로직을 구현하는 업무를 담당하였습니다. 해당 업무를 수행하며 대용량 데이터를 처리하는 프로그램을 설계, 디버깅, 자료구조, 알고리즘을 개발하는 업무를 수행하였습니다.
     - 기술 요소 : C#, .NET Framework 4.6, [MOZART Framework](http://www.vmsmozart.com/index.php?mc=a&md=04&t=)
 
     ![mozart](/assets/img/Mozart.png)
 	
-  3. 반도체 생산 계획 보정 및 기준정보 등록/수정/삭제용 UI 유지보수
+  - 반도체 생산 계획 보정 및 기준정보 등록/수정/삭제용 UI 유지보수
     - 업무 내용 : Front영역과 Backend영역간 해당하는 사용자 인증, 시큐어 코딩, 데이터 조회 및 처리 업무를 수행하며 Web서비스 운영에 대한 이해도를 높였습니다.
     - 기술 요소 : Java 6, Spring, Jetty, WebLogic, Oracle Http Server, XPlatform 
-
-  4. JDBC API를 이용한 DB to DB 간 데이터 전송 프로그램 운용
+  - JDBC API를 이용한 DB to DB 간 데이터 전송 프로그램 운용
     - 업무 내용 : Java프로그램으로 구현된 Database 간의 데이터를 송수신하는 프로그램을 운영하였습니다.
     - 기술 요소 : Java 6, OJDBC jar, SunOS
-  
-  5. 레거시 프로젝트 TDD 개발환경 구축 및 리팩토링 업무 수행
+  - 레거시 프로젝트 TDD 개발환경 구축 및 리팩토링 업무 수행
     - 업무 내용 : TDD 도입 및 코드 품질에 해당하는 Cyclomatic Complexity, LinesOfCode, CouplingBetweenObjects, Modular Circular Dependency, Duplicate Codes 지표 점수를 높이기 위해 코드를 리팩토링 하는 업무를 진행하였습니다.
     - 기술 요소 : C# - MStest,Moq / Java - JUnit, Mockito, spring-test
 
