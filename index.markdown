@@ -96,10 +96,10 @@ layout: default
 
 - 개요 : 차량용 인포테인먼트 시스템 UI 테스트 자동화 도구 개발
 - 주요 역할
-  1. 인포테인먼트 화면 캡쳐 모듈 개발  
+  - 인포테인먼트 화면 캡쳐 모듈 개발  
     - 업무 내용 : ADB jar를 이용하여 안드로이드 화면 캡쳐 및 이미지 파일로 추출하는 모듈을 개발하고, Android OS 화면을 캡쳐하기 위한 Agent 프로그램도 구현하였습니다.
     - 기술 요소 : C++, Java, Android PDK (Kitkat 4.4.2), [Android Debug Bridge](https://developer.android.com/studio/command-line/adb)        
-  2. Deep Learning 모델 학습 환경 구축
+  - Deep Learning 모델 학습 환경 구축
     - 업무 내용 : Tensorflow Object Detection API를 활용하여, 딥러닝 모델 학습 및 Image Labeling Tool을 이용하여 인포테이먼트 장비 이미지 Dataset을 생성하는 업무를 진행하였습니다.
     - 기술 요소 : Python, [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
     ![DeepLearning2](/assets/img/DeepLearning2.png)
@@ -112,7 +112,7 @@ layout: default
 - 개요 : SURF 알고리즘 성능 최적화를 위한 연구
 - 주요 역할
   - 영상 인식 알고리즘 개선
-    - 업무 내용 : SURF 알고리즘에 포함된 Integral Image, Hessian-Matrix 기반 Interest Point 검출, Descriptor 생성 알고리즘에 대해 이해하고, C++로 작성된 SURF알고리즘의 소스코드를 바탕으로 알고리즘 개선업무를 진행하였습니다.
+    - 업무 내용 : SURF 알고리즘에 포함된 Integral Image, Hessian-Matrix 기반 Interest Point 검출, Descriptor 생성 알고리즘에 대해 이해하고, C++로 작성된 SURF알고리즘 소스코드로 개선업무를 진행하였습니다.
     - 기술 요소 : C++, OpenCV, OpenSURF
 	![SCI_Paper](/assets/img/SCI_Paper.png)
 	<br><br><br><br>
@@ -126,7 +126,7 @@ layout: default
   - 영상기반 드론 객체 추적 비행 알고리즘 구현
      - 기술 요소 : C++, OpenCV, Linux, PID Controller(제어 알고리즘), [SURF](https://github.com/stephen-mi11er/opensurf)(영상 인식), [Location Matching](https://m.earticle.net/Article/A158894)(객체 추적)  
   - 오픈소스를 활용한 영상기반 객체추적 비행 시뮬레이션 비행 환경 구축
-     - PIXHAWK 보드 전용 비행 시뮬레이터에서 제공하는 화면을 캡쳐하여, 해당 이미지 상에서 객체 인식 및 비행제어 명령을 전송하여 가상의 환경에서 비행 결과를 확인할 수 있는 테스트 베드를 구축함.
+     - PIXHAWK 보드 전용 비행 시뮬레이터에서 제공하는 화면을 캡쳐하여, 해당 이미지 상에서 객체 인식 및 비행제어 명령을 전송하여 가상의 환경에서 비행 결과를 확인할 수 있는 테스트 베드를 구축하는 연구를 진행하였습니다.
      - 기술 요소 : C++, Java, Java 3D, OpenCV, Linux, QT(GUI), [MAVLink](https://github.com/mavlink/mavlink), [JMAVSim](https://github.com/PX4/jMAVSim)
 	![simulation-env](/assets/img/SimulationEnv.png)
 	<br><br>
