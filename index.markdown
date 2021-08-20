@@ -113,8 +113,12 @@ layout: default
     - 기술 요소 : C++, Linux OS, Android Platform Development Kit, [Malloc Debug](https://android.googlesource.com/platform/bionic/+/master/libc/malloc_debug/README.md), IPC Communication (UDS Socket)
 	
   - 메모리 누수 로그 수집용 App 개발 
+   
+    - Android 2.x 버전으로 구현된 App을 Android 4.x 버전으로 Upgrade하며 하위호환성을 유지할 수 있는 구조로 App을 유지보수 하였습니다.
 
-    - Android에서 실행되는 여러개의 Native Process로부터 전송하는 메모리 할당/해제 사용 로그를 수집하고 파일 형태로 기록하는 로직을 Thread, Queue, 임계영역, IPC를 이용하여 로그를 수집하는 기능 구현  
+    - Native Process가 호출하는 메모리 할당/해제 호출 이력을 수집하기 위해 Android App에서 Main Thread와 자식 Thread 분리 운용 로직 구현, 임계영역, Queue 및 IPC를 이용하여 로그를 수집하는 기능 구현하였습니다.
+
+    - Android NDK를 활용하여 Linux Command 실행용 C 프로그램을 개발하여, CPU/MEM 등 Device 자원정보를 추출하는 기능을 구현하였습니다.
 
     - 기술 요소 : Java, C/C++, Android NDK, Android SDK (Kitkat 4.4.2),  Android Component
 
@@ -166,15 +170,25 @@ layout: default
 
 ## **영상기반 객체 추적 비행 알고리즘 연구 및 플랫폼 개발**
 
-- 개요 : 드론으로 영상기반 객체추적 비행 알고리즘 구현 및 시뮬레이션 환경 구축
+- 개요 : 영상기반 객체추적 비행 알고리즘 구현 및 시뮬레이션 환경 구축하고 이를 4-Motors 드론으을 제작하여 실제 비행에 응용하는 연구를 수행하였습니다.
 
 - 주요 역할
 
-  - 비행 제어용 Board인 PIXHAWK H/W에 탑재되는 RTOS 및 내부 S/W 아키텍쳐 분석
+  - PIXHAWK보드 전용 PX4 Platform S/W 아키텍쳐 분석
+
+    - 비행 제어 보드(PIXHAKW), 모터, 4-motors 바디프레임, Optical Flow 센서 등을 구매하여 Drone을 직접 제작하였습니다.
+
+    - PX4에서 사용하는 Message 전송 API와 Data Protocol API를 활용하여 Custom 비행모드를 추가하였습니다. (객체 추적 비행, 제자리 비행)
 
     - 기술 요소 : C++, CMake, [PX4](https://github.com/PX4/PX4-Autopilot), [MAVLink(Data Protocol)](https://github.com/mavlink/mavlink), uORB (IPC용 Message 전송 API)
 
   - 영상기반 드론 객체 추적 비행 알고리즘 구현
+
+    - SURF알고리즘으로 대상을 인식하는 Matching 기능을 구현하였습니다.
+
+    - 카메라 화면을 중심으로부터 대상의 떨어진 거리를 유클리디안 거리를 측정하여 객체를 카메라 중심으로 볼 수 있게 좌-우
+
+    - 최초로 설정한 객체 영역의 크기 변화에 따라, 전-후 이동을 제어하는 로직을 구현하였습니다. 
 
     - 기술 요소 : C++, OpenCV, Linux, PID Controller(제어 알고리즘), [SURF](https://github.com/stephen-mi11er/opensurf)(영상 인식), [Location Matching](https://m.earticle.net/Article/A158894)(객체 추적)  
 
