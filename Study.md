@@ -264,24 +264,25 @@
 
 # Network
 
-- GET, POST 방식의 차이점
-- TCP 3-way-handshake
-- TCP 와 UDP 의 차이점
-- HTTP 와 HTTPS 의 차이점
-  - HTTP 의 문제점들
-- DNS round robin 방식
-- 웹 통신의 큰 흐름
+- HTTP에 대하여 설명해보세요
+  - HTTP 1.0 : 
+  - HTTP 1.1 : 
+  - HTTP 2.0 :
+  - HTTPS 에 대하여 설명해보세요
+  - HTTP 구조
+    - 공통헤더, 요청 헤더, 응답헤더
+    - 본문
+- HTTP Method에 대하여 설명해보세요
+  - GET과 POST 방식의 차이점을 설명해보세요
+- REST, REST API에 대하여 설명해보세요
+- OSI 7 Layers를 Web Browser 실행과 연관지어 설명해보세요
+- TCP/IP Layers에 대하여 설명해보세요
+- TCP와 UDP의 차이점을 설명해보세요
+- 암호화, 복호화 방식에 대해 설명해보세요
+- Cookie와 Session에 대하여 설명해보세요
+- 네트워크 보안에 대하여 설명해보세요
 
 [참조](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/Network)
-
-- HTTP
-- OSI 7 Layers
-- RESTful API
-- TCP, UDP
-- DNS
-- Security
-
-
 
 # Operating System
 
