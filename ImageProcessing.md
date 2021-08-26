@@ -1,0 +1,86 @@
+# Image Processing
+
+- Introduction
+  - 디지털 영상처리란?
+  - 디지털 영상처리 단계
+- 디지털 영상처리 기본
+  - 인지 요소
+  - 이미지 감지 및 획득
+  - 이미지 샘플링 및 양자화
+  - 픽셀 간 기본적인 관계
+- 공간 영역에서의 영상 개선
+  - 명암 이미지 변환
+  - 히스토그램 처리
+  - 산술/로직 연산을 이용한 영상 개선
+  - 공간영역 필터링
+  - 스무딩 
+  - 샤프닝
+  - 공간영역 개선방법 조합을 영상 개선
+- 주파수 영역에서의 영상 개선
+  - 1차원 퓨리에 변환
+  - 2차원 이산 퓨리에 변환
+  - 주파수 영역에서의 필터링
+  - 주파수 영역과 공간영역의 관련성
+  - 주파수 영역 필터의 스무딩
+  - 주파수 영역 필터의 샤프닝
+  - 동형 필터링
+- 영상 복원
+  - 영상 복원 과정
+  - 노이즈 모델
+  - 공간 필터링을 이용한 노이즈 제거
+  - 주파수 필터링을 이용한 주기성 노이즈 제거
+  - Linear, Position-Invariant Degradation
+  - Degradation function
+  - Inverse Filter
+  - Minimum Mean Squre Error Filtering
+  - Constrainted Least Squares Filtering
+  - Geometric mean Filter
+  - Geometric Transformations
+- 컬러 영상 처리
+  - 컬러 모델
+  - Pseudocolor 영상처리
+  - Full-Color 영상처리
+  - 컬러 변환
+  - 스무딩과 샤프닝
+  - 컬러 영역분할
+  - 컬러 영상의 잡음
+  - 컬러 영상 압축
+- 웨이블릿과 다중 해상도(MultiResolution) 처리
+  - 배경
+  - 웨이블릿 변환
+- 영상 압축
+  - 중복제거 (Coding, Interpixel, Psychovisual, Fidelity)
+  - 소스 인코더,디코더
+  - 채널 인코더,디코더
+  - 정보 이론 요소
+  - 무손실 압축
+  - 손실 압축
+  - 영상 압축 표준
+- 형태학적(Morphological) 영상 처리
+  - 팽창(Dilation)
+  - 침식(Erosion)
+  - 개방, 폐쇠
+  - Hit-or-Miss 변환
+  - 경계선 추출
+  - Region Filling
+  - Connected Components 추출
+  - Convex hull
+  - Thinning
+  - Thickening
+  - Skeletons
+  - Pruning
+- 영상 분할
+  - 중단 영역 검출
+  - Edge 연결, 경계선 검출
+  - Thresholding
+  - Region 기반 분할
+  - Morphological WaterSheds기반 분할
+- 표현 및 서술
+  - 표현
+  - 경계 서술자
+  - 지역 서술자
+  - 관계형 서술자
+- 객체 인식
+  - 패턴
+  - Decision-Theoretic 방법 기반 인식
+  - 구조적 방법
