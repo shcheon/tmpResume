@@ -1,5 +1,3 @@
-# Interview 준비
-
 # RDBMS
 
 ## Database
