@@ -7,7 +7,8 @@ layout: default
 
 안녕하세요.<br>
 
-여러 분야의 레거시 프로젝트를 분석하며, S/W 아키텍쳐, 자료구조, 알고리즘을 빠르게 이해하는 역량과 다양한 플랫폼에서의 개발 경험을 보유하고 있습니다.
+영상처리 기반 어플리케이션, 안드로이드 App, Web Application 등 다양한 어플리케이션 개발/운영 경험이 있으며,
+최근 MSA, Kafka, Docker 등 Web Infra에 관심을 갖고 있습니다.
 
 
 **Table of Contents**
