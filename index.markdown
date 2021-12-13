@@ -54,13 +54,13 @@ layout: default
 
     - Pegging 로직 개발
 
-    - 일 생산 목표(Target) 전개 로직 개발
+    - 반도체 공정 별 일 생산 목표일(Target) 수립 로직 개발
 
     - Capacity Bucketing Simulation 기반 반도체 생산 계획 생성 로직 개발
 
     - PowerShell을 이용한 로그파일 자동 삭제 스크립트 작성 및 배포
 
-    - 기술 요소 : C#, .NET Framework 4.6, [MOZART Framework](http://www.vmsmozart.com/index.php?mc=a&md=04&t=), IIS
+    - 기술 요소 : C# 5.0, .NET Framework 4.6, [MOZART Framework](http://www.vmsmozart.com/index.php?mc=a&md=04&t=), IIS
 
     ![mozart](/assets/img/Mozart.png)
     
@@ -74,7 +74,7 @@ layout: default
 
     - 테스트 코드 작성활동 문화 도입 및 코드 리팩토링
 
-    - 기술 요소 : C#, MSTest, Github, SVN
+    - 기술 요소 : C# 5.0, MSTest, Github, SVN
 
 <br><br>
 
