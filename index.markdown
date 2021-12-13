@@ -54,7 +54,9 @@ layout: default
 
     - Pegging 로직 개발
 
-    - Capacity Bucketing Simulation 개발
+    - 일 생산 목표(Target) 전개 로직 개발
+
+    - Capacity Bucketing Simulation 기반 생산 시뮬레이션 로직 개발
 
     - PowerShell을 이용한 로그파일 자동 삭제 스크립트 작성 및 배포
 
@@ -150,35 +152,35 @@ layout: default
 	![SCIE_Paper](/assets/img/SCIE_Paper.png)
 <br><br>
 
-## **영상기반 객체 추적 비행 알고리즘 연구 및 플랫폼 개발**
+## **영상기반 객체 추적 비행 알고리즘에 관한 연구**
 
-- 개요 : 영상기반 객체추적 비행 알고리즘 구현 및 시뮬레이션 환경 구축하고 이를 4-Motors 드론으을 제작하여 실제 비행에 응용하는 연구를 수행하였습니다.
+- 개요 : 특징점 기반 영상 인식 알고리즘을 연구하고, 이를 바탕으로 드론으로 객체추적 비행을 구현하는 연구를 수행함 .
 
 - 주요 역할
 
-  - 무인 비행체 용 오픈소스 분석 
+  - 무인 비행체 펌웨어 분석 
 
-    - 데이터 프로토콜 포맷 분석 및 신규 정의
+    - 오픈소스 플랫폼 분석 (외부 데이터 프로토콜, IPC 프로토콜, API 분석)
    
     - 객체 추적 비행모드 구현
 
-    - 기술 요소 : C++, CMake, [PX4](https://github.com/PX4/PX4-Autopilot), [MAVLink(Data Protocol)](https://github.com/mavlink/mavlink), uORB (IPC용 Message 전송 API)
+    - 기술 요소 : C++, CMake, [PX4](https://github.com/PX4/PX4-Autopilot), [MAVLink(Data Protocol)](https://github.com/mavlink/mavlink), uORB Library
 
-  - 영상기반 드론 객체 추적 비행 알고리즘 구현
+  - 객체 추적 비행 알고리즘 구현
 
-    - SURF알고리즘으로 대상을 인식하는 Matching 기능을 구현하였습니다.
+    - 객체 인식 및 추적 기능 개발
 
-    - 카메라 화면 중심으로부터 추적 대상의 떨어진 거리를 유클리디안 거리를 측정하여 객체를 카메라 중심으로 볼 수 있게 좌-우 이동을 제어하는 로직을 구현하였습니다.
-
-    - 최초로 설정한 객체 영역의 크기 변화에 따라, 전-후 이동을 제어하는 로직을 구현하였습니다. 
-
-    - 전-후, 좌-우 비행 제어 명령을 생성하기 위해 PID Controller 알고리즘을 구현하였습니다.
+    - 비행 알고리즘 개발
 
     - 기술 요소 : C++, OpenCV, Linux, PID Controller(제어 알고리즘), [SURF](https://github.com/stephen-mi11er/opensurf)(영상 인식), [Location Matching](https://m.earticle.net/Article/A158894)(객체 추적)  
 
-  - 오픈소스를 활용한 영상기반 객체추적 비행 시뮬레이션 비행 환경 구축
+  - 오픈소스 기반 객체 추적 비행 시뮬레이션 환경 구축
 
-    - PIXHAWK 보드 전용 비행 시뮬레이터에서 제공하는 화면을 캡쳐하여, 해당 이미지 상에서 객체 인식 및 비행제어 명령을 전송하여 가상의 환경에서 비행 결과를 확인할 수 있는 테스트 베드를 구축하는 연구를 진행하였습니다.
+    - 비행 시뮬레이터 소스 분석
+    
+    - 비행제어 알고리즘 테스트 프로그램 개발
+
+    - TCP/IP 기반 영상 전송 기능 구현
 
     - 기술 요소 : C++, Java, Java 3D, OpenCV, Linux, QT(GUI), [MAVLink](https://github.com/mavlink/mavlink), [JMAVSim](https://github.com/PX4/jMAVSim
      
@@ -207,8 +209,6 @@ layout: default
 
   - Android용 테트리스 게임 개발
 
-    - 추상화, 상속, 인터페이스, 캡슐화, 다형성 개념을 활용하여 S/W를 설계 및 구현하고, Android Component와 GDI를 활용하여 Graphic UI 구현하였습니다.
-
     - 기술 요소 : Java, Android 3.0.1, Android GDI
 
 	![image-20210808210941608](/assets/img/image-20210808210941608.png)
@@ -224,21 +224,21 @@ layout: default
 
   - Android App 개발
 
-    - 부드러운 화면전환을 위해 Fragment Library를 이용하여 Android UI를 구현하였습니다.
+    - Fragment기반 Android GUI 개발
 
-    - 어린이집 공지사항, 출석체크 등의 정보를 SQLite를 활용하여 모바일 Database에 저장하는 기능을 구현하였습니다.
+    - RFID 기반 자동출석기능 구현
+  
+    - 어린이집 공지사항 Push알람 구현
 
-    - IP Camera로부터 전송받은 MJPEG 이미지를 Android 화면으로 실시간 출력해주는 Viewer를 구현하였습니다. 
+    - IP 카메라 이미지 뷰어 기능 구현
 
-    - 서버의 Update 버전 점검 로직을 통해, 서버 DB data 동기화 또는 image Resourece파일을 다운받는 로직을 구현하였습니다.
-
-    - 기술 요소 : Java, Android 2.3, Http API, SQLite, MJPEG, Fragment
+    - 기술 요소 : Java, Android 2.3, Http API, SQLite, MJPEG, Fragment, Google
 
   - Server 개발
 
-    - Apache Tomcat 서버를 이용하여 데이터 CRUD를 수행하는 웹 서버를 구축하였습니다.
-
-    - 어린이가 등하원 할 때, Http와 GCM API를 이용하여 Push 알람 메시지를 전송해주는 기능을 구현하였습니다.
+    - 학부모-어린이 정보 저장 DB 스키마 설계
+    
+    - 어린이 등하원 정보 수집 기능 구현
 
     - 기술 요소 : PHP, MySQL, Apache Tomcat, GCM(=Google Cloud Message) API   
 
@@ -254,11 +254,11 @@ layout: default
 
 - 주요 역할
 
-  - Firmware 개발
+  - 1:N 통신 펌웨어 개발
 
-    - Piconet(1:N통신) 기능을 지원하는 Bluetooth을 활용하여 MCU register 프로그래밍을 통해 멀티 통신 기능을 구현하였습니다. 
+    - 1:N통신 기능을 지원하는 Bluetooth 모듈과 MCU register 프로그래밍을 통해 멀티 통신 기능 구현 
 
-    - 기술 요소 : C Language, Bluetooth Piconet (1:N 통신 구현), LABVIEW
+    - 기술 요소 : C Language, Bluetooth Piconet (1:N 통신)
 
 	![image-cansat](/assets/img/cansat.png) 
 <br><br>
@@ -272,17 +272,15 @@ layout: default
 
   - UAV 추적 안테나 시뮬레이터 구현
 
-    - GPS 데이터의 위,경도 값을 예측하는 선형 Kalman Filter를 구현하였습니다.
+    - GPS 데이터의 위,경도 값 예측용 선형 Kalman Filter 구현
 
-    - GPS 위, 경도 데이터로 지향각과 고도각을 계산하는 식을 논문을 참조하여 구현하였습니다.
+    - 지향각 및 고도각 계산 로직 구현
 
-    - OpenGL을 이용하여 안테나 모형을 시각화 하였습니다.
+    - 안테나 모형 시각화
 
-    - 직교 좌표계에 해당하는 GPS데이터를 극좌표로 변환하는 식을 구현하였습니다.
-
-    - X-PLANE에서 전송해주는 데이터는 빅 엔디안 구조이므로, Union 자료구조를 이용하여 데이터를 리틀 엔디안구조로 변경하는 데이터 송수신부를 구현하였습니다.
+    - 비행 시뮬레이터 프로그램과 연동을 통한 안테나 지향 및 고도각 검증 수행
     
-    - 아두이노와 서보모터를 이용하여 실제 지향 안테나의 동작을 모방하는 작업도 진행하였습니다.
+    - 마이크로컨트롤러를 이용한 지향 안테나 모의 동작 구현
 
     - 기술 요소 : C Language, OpenGL, X-PLANE 
     
