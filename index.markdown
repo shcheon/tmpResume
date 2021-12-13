@@ -5,11 +5,6 @@
 layout: default
 ---
 
-안녕하세요.<br>
-
-영상처리 기반 어플리케이션, 안드로이드 App, Web Application 등 다양한 어플리케이션 개발/운영 경험이 있으며,
-최근 MSA, Kafka, Docker 등 Web Infra에 관심을 갖고 있습니다.
-
 
 **Table of Contents**
 * TOC
