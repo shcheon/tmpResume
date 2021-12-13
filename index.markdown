@@ -32,7 +32,7 @@ layout: default
 
 ## **삼성SDS**
 
-- 재직기간 : '18.07 ~ 현재
+- 재직기간 : '18.09 ~ '21.12 (3년 3개월)
 
 ### **반도체 Backend 공정 Factory Planning Backend서버 운영**
 
@@ -56,7 +56,7 @@ layout: default
 
     - 일 생산 목표(Target) 전개 로직 개발
 
-    - Capacity Bucketing Simulation 기반 생산 시뮬레이션 로직 개발
+    - Capacity Bucketing Simulation 기반 반도체 생산 계획 생성 로직 개발
 
     - PowerShell을 이용한 로그파일 자동 삭제 스크립트 작성 및 배포
 
@@ -70,7 +70,7 @@ layout: default
 
     - 기술 요소 : Javascript, JSP, Java 6, Spring, Jetty, WebLogic, Oracle Http Server, XPlatform 
 
-  - 리팩토링 업무 수행
+  - 단위 테스트 작성 및 리팩토링 업무 수행
 
     - 테스트 코드 작성활동 문화 도입 및 코드 리팩토링
 
