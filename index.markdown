@@ -40,47 +40,39 @@ layout: default
 
 - 주요 역할
 
-  - SQL Join을 이용한 데이터 전처리 및 가공 및 SQL Tuning 수행
+  - Factory Planning 기준정보 데이터 관리
+  
+    - PL/SQL로 작성된 DB 프로그램 유지보수
 
-    - 100개 이상의 테이블 관리 및 100만건 이상의 데이터를 SQL Join을 통해 데이터를 가공하는 로직을 구현 업무를 담당하였습니다.
-
-    - SQL Tuning을 통해 처리시간을 단축하는 업무를 담당하였습니다.  
+    - SQL Tuning
 
     - 기술 요소 : Oracle Database, PL/SQL, SunOS, Cron(Scheduling)
 
-  - MOZART Framework를 활용한 일 생산 계획 생성 시뮬레이션 S/W 개발
+  - 일 생산 계획 생성 시뮬레이션 S/W 개발
 
-    - 30개 이상의 DB 테이블를 In-Memory로 로딩하여, 반도체 생산계획을 수립하기 위한 S/W 설계, 자료구조, 알고리즘을 개발하는 업무를 수행하였습니다.
+    - Demand Smoothing 로직 개발
 
-    - Order에 따른 반도체 공정별 일 생산 목표(Target)를 생성하는(Backward Pegging) 로직 구현업무를 담당하였습니다.
+    - Pegging 로직 개발
 
-    - Order 납기 준수를 위한, 설비에 공정 별 생산 계획을 예측하는(Forward Planning) 로직을 구현하는 업무를 담당하였습니다.
+    - Capacity Bucketing Simulation 개발
 
-    - Powershell을 이용한 로그파일 삭제 스크립트를 구현하고 IIS서버의 스케쥴러에 등록하여 로그파일을 관리하는 업무도 담당하였습니다.
+    - PowerShell을 이용한 로그파일 자동 삭제 스크립트 작성 및 배포
 
-    - 기술 요소 : C#, .NET Framework 4.6, [MOZART Framework](http://www.vmsmozart.com/index.php?mc=a&md=04&t=)
+    - 기술 요소 : C#, .NET Framework 4.6, [MOZART Framework](http://www.vmsmozart.com/index.php?mc=a&md=04&t=), IIS
 
     ![mozart](/assets/img/Mozart.png)
     
-  - 반도체 생산 계획 보정 및 기준정보 등록/수정/삭제용 웹 서버 운영
+  - 반도체 생산 계획 Web UI 운영
 
-    - XPlatform, Spring기반으로 구축된 웹 서버의 역할에 해당하는 SSO 인증, 시큐어 코딩, DB CRUD 처리를 수행하는 기능을 유지보수하는 업무를 수행하였습니다.
+    - 웹 서버 및 웹 어플리케이션 운영
 
     - 기술 요소 : Javascript, JSP, Java 6, Spring, Jetty, WebLogic, Oracle Http Server, XPlatform 
 
-  - JDBC API를 이용한 DB to DB 간 데이터 전송 프로그램 운용
+  - 리팩토링 업무 수행
 
-    - Batch단위로 Database 간의 데이터를 송수신하는 프로그램을 운영하였습니다.
+    - 테스트 코드 작성활동 문화 도입 및 코드 리팩토링
 
-    - 기술 요소 : Java 6, OJDBC jar, SunOS
-
-  - 레거시 프로젝트 TDD 개발환경 구축 및 리팩토링 업무 수행
-
-    - Test-Driven-Development 개발문화를 도입하고, Clean Code 작성에 도움이 되는 지식을 전파하는 활동을 하였습니다.
-
-    - 코드 품질에 해당하는 Cyclomatic Complexity, LinesOfCode, CouplingBetweenObjects, Modular Circular Dependency, Duplicate Codes를 없애기 위한 리팩토링 업무를 진행하였습니다.
-
-    - 기술 요소 : C# - MStest,Moq / Java - JUnit, Mockito, spring-test
+    - 기술 요소 : C#, MSTest, Github, SVN
 
 <br><br>
 
@@ -96,23 +88,21 @@ layout: default
 
 ### **PROV for Android 솔루션 개발**
 
-- 개요 : 안드로이드 기반 인포테인먼트 시스템에서 발생하는 메모리 누수를 검출하는 모듈 개발
+- 개요 : 안드로이드 OS기반의 인포테인먼트 시스템에서 발생하는 메모리 누수를 검출하는 모듈 개발
 
 - 주요 역할
 
   - Native 메모리 누수 검출 모듈 개발 
 
-    - malloc, calloc, free, memalign, new, delete 등 C/C++에서 동적 메모리 할당 키워드가 사용될 때, 이를 Hooking하여 메모리 누수를 감지하는 Agent 모듈을 구현하였습니다.      
-
     - 기술 요소 : C++, Linux OS, Android Platform Development Kit, [Malloc Debug](https://android.googlesource.com/platform/bionic/+/master/libc/malloc_debug/README.md), IPC Communication (UDS Socket)
 	
-  - 메모리 누수 로그 수집용 App 개발 
+  - 메모리 누수 로그 수집용 안드로이드 App 개발 
    
-    - Android 2.x 버전으로 구현된 App을 Android 4.x 버전으로 Upgrade하며 하위호환성을 유지할 수 있는 구조로 App을 유지보수 하였습니다.
+    - Android App 버전 호환을 위한 API 사용 코드 유지보수
 
-    - Native Process가 호출하는 메모리 할당/해제 호출 이력을 수집하기 위해 Android App에서 Main Thread와 자식 Thread 분리 운용 로직 구현, 임계영역, Queue 및 IPC를 이용하여 로그를 수집하는 기능 구현하였습니다.
+    - Native Process 프로세스로부터 전송하는 로그 수집 모듈 구현
 
-    - Android NDK를 활용하여 Linux Command 실행용 C 프로그램을 개발하여, CPU/MEM 등 Device 자원정보를 추출하는 기능을 구현하였습니다.
+    - CPU/Memory 사용율 수집을 위한 C프로그램 작성
 
     - 기술 요소 : Java, C/C++, Android NDK, Android SDK (Kitkat 4.4.2),  Android Component
 
@@ -128,13 +118,11 @@ layout: default
 
   - 인포테인먼트 화면 캡쳐 모듈 개발  
 
-    - ScreenCapture가 지원되지 않는 안드로이드 기반 인포테인먼트 장비에서 화면을 캡쳐하는 Agent 프로그램을 구현하였습니다.
-
     - 기술 요소 : C++, Java, Android PDK (Kitkat 4.4.2), [Android Debug Bridge](https://developer.android.com/studio/command-line/adb)        
 
   - Deep Learning 모델 학습 환경 구축
 
-    - Tensorflow Object Detection API를 활용하여, 딥러닝 모델 학습 및 Image Labeling Tool을 이용하여 인포테이먼트 장비 이미지 Dataset을 생성하는 업무를 진행하였습니다.
+    - Tensorflow Object Detection API를 활용한 딥러닝 파이프라인 환경 셋업 및 테스트 진행
 
     - 기술 요소 : Python, [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
@@ -153,7 +141,7 @@ layout: default
 
   - 영상 인식 알고리즘 개선
 
-    - SURF 알고리즘에 포함된 Integral Image, Hessian-Matrix 기반 Interest Point 검출 및 Descriptor 생성 알고리즘을 이해한 후, 알고리즘 병목현상을 개선하는 연구를 진행하였습니다.
+    - SURF 알고리즘 메모리 사용 및 계산량 최적화 연구 수행
 
     - 기술 요소 : C++, OpenCV, OpenSURF
 
@@ -168,11 +156,11 @@ layout: default
 
 - 주요 역할
 
-  - PIXHAWK보드 전용 PX4 Platform S/W 아키텍쳐 분석
+  - 무인 비행체 용 오픈소스 분석 
 
-    - 비행 제어 보드(PIXHAKW), 모터, 4-motors 바디프레임, Optical Flow 센서 등을 구매하여 드론을 직접 제작하였습니다.
-
-    - PX4에서 사용하는 Message 전송 API와 Data Protocol API를 활용하여 Custom 비행모드를 추가하였습니다. (객체 추적 비행, 제자리 비행)
+    - 데이터 프로토콜 포맷 분석 및 신규 정의
+   
+    - 객체 추적 비행모드 구현
 
     - 기술 요소 : C++, CMake, [PX4](https://github.com/PX4/PX4-Autopilot), [MAVLink(Data Protocol)](https://github.com/mavlink/mavlink), uORB (IPC용 Message 전송 API)
 
