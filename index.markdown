@@ -28,15 +28,17 @@ layout: default
 
 <br><br>
 
-# **회사(2017.7 ~ 현재)**
+# **회사 경력**
 
 ## **삼성SDS**
 
-- 재직기간 : '18.09 ~ '21.12 (3년 3개월)
+- 재직기간 : '18.07 ~ 현재
 
 ### **반도체 Backend 공정 Factory Planning Backend서버 운영**
 
 - 개요 : Week 단위의 반도체 생산 계획을 Day 단위로 설비의 Capacity를 고려하여 생산계획을 생성하는 Backend 서버를 운영하였습니다.
+
+- 수행기간 : '18.09 ~ '21.12 (3년3개월)
 
 - 주요 역할
 
@@ -68,7 +70,7 @@ layout: default
 
     - 웹 서버 및 웹 어플리케이션 운영
 
-    - 기술 요소 : Javascript, JSP, Java 6, Spring, Jetty, WebLogic, Oracle Http Server, XPlatform 
+    - 기술 요소 : Javascript, JSP, Java 6, SpringFramework, Jetty, WebLogic, Oracle Http Server, XPlatform 
 
   - 단위 테스트 작성 및 리팩토링 업무 수행
 
@@ -91,6 +93,8 @@ layout: default
 ### **PROV for Android 솔루션 개발**
 
 - 개요 : 안드로이드 OS기반의 인포테인먼트 시스템에서 발생하는 메모리 누수를 검출하는 모듈 개발
+
+- 수행기간 : '17.07 ~ '21.03 (8개월)
 
 - 주요 역할
 
@@ -116,9 +120,11 @@ layout: default
 
 - 개요 : 차량용 인포테인먼트 시스템 UI 테스트 자동화 도구 개발
 
+- 수행기간 : '17.03 ~ '21.07 (4개월)
+
 - 주요 역할
 
-  - 인포테인먼트 화면 캡쳐 모듈 개발  
+  - 인포테인먼트 화면 캡쳐 모듈 개발
 
     - 기술 요소 : C++, Java, Android PDK (Kitkat 4.4.2), [Android Debug Bridge](https://developer.android.com/studio/command-line/adb)        
 
