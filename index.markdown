@@ -106,7 +106,7 @@ layout: default
 
     - CPU/Memory 사용율 수집을 위한 C프로그램 작성
 
-    - 기술 요소 : Java, C/C++, Android NDK, Android SDK (Kitkat 4.4.2),  Android Component
+    - 기술 요소 : Java, C/C++, Android NDK, Android SDK (Kitkat 4.4.2)
 
     ![MemoryLeak](/assets/img/MemoryLeak.png)
 
